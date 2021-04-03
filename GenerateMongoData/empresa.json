@@ -1,0 +1,723 @@
+[
+  {
+    "nom": "Mireia Latre",
+    "sexe": "D",
+    "adreça": { "carrer": "Tres cantons", "numero": 10, "poblacio": "Bonyeta" },
+    "departament": "Informàtica",
+    "idiomes": ["anglès"]
+  },
+  {
+    "nom": "Xavier Matarodona",
+    "sexe": "H",
+    "adreça": {
+      "carrer": "de l'Ajuntament",
+      "numero": 6,
+      "poblacio": "Vilafredat"
+    },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès"]
+  },
+  {
+    "nom": "Joan Matarodona",
+    "sexe": "H",
+    "adreça": { "carrer": "Dos de maig", "numero": 3, "poblacio": "Bonyeta" },
+    "departament": "Marketing",
+    "idiomes": ["català", "alemany"]
+  },
+  {
+    "nom": "Queralt Matarodona",
+    "sexe": "D",
+    "adreça": { "carrer": "de l'Església", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català", "anglès", "alemany"]
+  },
+  {
+    "nom": "Maria Àngels Maymó",
+    "sexe": "D",
+    "adreça": { "carrer": "Nou", "numero": 5, "poblacio": "Bonyeta" },
+    "departament": "Marketing",
+    "idiomes": ["català"],
+    "delegatSindical": "Si"
+  },
+  {
+    "nom": "Juan Moron",
+    "sexe": "H",
+    "adreça": { "carrer": "Nou", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": "Informàtica",
+    "idiomes": ["castellà"]
+  },
+  {
+    "nom": "Miquel Oliva",
+    "sexe": "H",
+    "adreça": { "carrer": "Fangós", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Xavier Boix",
+    "sexe": "H",
+    "adreça": { "carrer": "Moll", "numero": 7, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès", "castellà"],
+    "delegatSindical": "Si"
+  },
+  {
+    "nom": "Joaquim Guevara",
+    "sexe": "H",
+    "adreça": { "carrer": "Major", "numero": 10, "poblacio": "Vilafredat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Alfons Sonet",
+    "sexe": "H",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català", "anglès", "alemany"]
+  },
+  {
+    "nom": "Rufo Rubio",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Helena Tió",
+    "sexe": "D",
+    "adreça": { "carrer": "Mullat", "numero": 3, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["castellà", "alemany", "francès"]
+  },
+  {
+    "nom": "Baldiri Maruny",
+    "sexe": "H",
+    "adreça": { "carrer": "Moll", "numero": 8, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Montserrat Ordeig",
+    "sexe": "D",
+    "adreça": { "carrer": "Bassa", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Joaquim Agulla",
+    "sexe": "H",
+    "adreça": { "carrer": "Bassa", "numero": 8, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "castellà"]
+  },
+  {
+    "nom": "Manel Alba",
+    "sexe": "H",
+    "adreça": { "carrer": "Canal", "numero": 10, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català", "xinès", "anglès"]
+  },
+  {
+    "nom": "Maria Àngels Palacios",
+    "sexe": "D",
+    "adreça": { "carrer": "Nevat", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "francès", "alemany"]
+  },
+  {
+    "nom": "Joan Maginet",
+    "sexe": "H",
+    "adreça": { "carrer": "Moll", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès"]
+  },
+  {
+    "nom": "Joaquim Juncosa",
+    "sexe": "H",
+    "adreça": { "carrer": "Oli", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès", "francès"]
+  },
+  {
+    "nom": "Sergi Paladell",
+    "sexe": "H",
+    "adreça": { "carrer": "Nevat", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Mireia Jorba",
+    "sexe": "D",
+    "adreça": { "carrer": "Unic", "numero": 8, "poblacio": "Torreta" },
+    "departament": "Marketing",
+    "idiomes": ["català", "alemany", "anglès"]
+  },
+  {
+    "nom": "Magda Parer",
+    "sexe": "D",
+    "adreça": {
+      "carrer": "de l'Ajuntament",
+      "numero": 10,
+      "poblacio": "Vilafredat"
+    },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Paco Hom",
+    "sexe": "H",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Candela Montió",
+    "sexe": "D",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["anglès", "francès", "alemany"]
+  },
+  {
+    "nom": "Enric Cardona",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "alemany"],
+    "delegatSindical": "Si"
+  },
+  {
+    "nom": "Víctor Mula",
+    "sexe": "H",
+    "adreça": { "carrer": "Nou", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Felicitat Perez",
+    "sexe": "D",
+    "adreça": { "carrer": "Canal", "numero": 10, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català", "xinès"]
+  },
+  {
+    "nom": "David Guirao",
+    "sexe": "H",
+    "adreça": { "carrer": "Unic", "numero": 3, "poblacio": "Torreta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès", "alemany"]
+  },
+  {
+    "nom": "Marti Llofriu",
+    "sexe": "H",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 5, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"],
+    "delegatSindical": "Si"
+  },
+  {
+    "nom": "Fe Messegué",
+    "sexe": "D",
+    "adreça": { "carrer": "de la Font", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Marketing",
+    "idiomes": ["castellà", "xinès"]
+  },
+  {
+    "nom": "Bernarda Masvidal",
+    "sexe": "D",
+    "adreça": { "carrer": "Fangós", "numero": 6, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "francès"]
+  },
+  {
+    "nom": "Sònia Rubio",
+    "sexe": "D",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": "Marketing",
+    "idiomes": ["català", "francès"]
+  },
+  {
+    "nom": "Pere Pujol",
+    "sexe": "H",
+    "adreça": { "carrer": "Unic", "numero": 8, "poblacio": "Torreta" },
+    "departament": "Informàtica",
+    "idiomes": ["català", "alemany"]
+  },
+  {
+    "nom": "Quim Lacalle",
+    "sexe": "H",
+    "adreça": { "carrer": "Sec", "numero": 7, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "francès"]
+  },
+  {
+    "nom": "Marti Ruiz",
+    "sexe": "H",
+    "adreça": { "carrer": "Dos de maig", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "alemany"],
+    "delegatSindical": "Si"
+  },
+  {
+    "nom": "Pep Matamala",
+    "sexe": "H",
+    "adreça": { "carrer": "Mullat", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "francès"]
+  },
+  {
+    "nom": "Joan Marqués",
+    "sexe": "H",
+    "adreça": { "carrer": "Sec", "numero": 6, "poblacio": "Vilamongat" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "alemany", "francès"]
+  },
+  {
+    "nom": "Mònica Pey",
+    "sexe": "D",
+    "adreça": { "carrer": "Bassa", "numero": 8, "poblacio": "Vilamongat" },
+    "departament": "Marketing",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "George Solé",
+    "sexe": "H",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 3, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Montserrat Guixà",
+    "sexe": "D",
+    "adreça": { "carrer": "Sec", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "alemany", "castellà"]
+  },
+  {
+    "nom": "Víctor Majós",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 5, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català", "anglès", "francès"]
+  },
+  {
+    "nom": "Candela Pinot",
+    "sexe": "D",
+    "adreça": { "carrer": "Unic", "numero": 5, "poblacio": "Torreta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Frederic Ibarra",
+    "sexe": "H",
+    "adreça": { "carrer": "Fangós", "numero": 6, "poblacio": "Vilamongat" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "francès", "xinès"]
+  },
+  {
+    "nom": "Joan Leal",
+    "sexe": "H",
+    "adreça": { "carrer": "Mullat", "numero": 3, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["català", "francès"]
+  },
+  {
+    "nom": "Mercè Codina",
+    "sexe": "D",
+    "adreça": { "carrer": "Bassa", "numero": 7, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Frederic Ortiz",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 1, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Joan Josep Giménez",
+    "sexe": "H",
+    "adreça": { "carrer": "Fangós", "numero": 7, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Rosa Maria Oliveras",
+    "sexe": "D",
+    "adreça": { "carrer": "de la Font", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès", "castellà"]
+  },
+  {
+    "nom": "Frederic Martell",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 5, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "alemany", "anglès"]
+  },
+  {
+    "nom": "Didac Jodar",
+    "sexe": "H",
+    "adreça": { "carrer": "Fang", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Lisa Ingla",
+    "sexe": "D",
+    "adreça": { "carrer": "Nevat", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["anglès", "francès", "alemany"]
+  },
+  {
+    "nom": "Daniel Icart",
+    "sexe": "H",
+    "adreça": { "carrer": "Canal", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "francès", "castellà"]
+  },
+  {
+    "nom": "Bernarda Llanet",
+    "sexe": "D",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 5, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["alemany"]
+  },
+  {
+    "nom": "Zeus Mercadal",
+    "sexe": "H",
+    "adreça": { "carrer": "Dos de maig", "numero": 1, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "francès", "castellà"]
+  },
+  {
+    "nom": "Jesus Llobet",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Pere Mayans",
+    "sexe": "H",
+    "adreça": { "carrer": "Moll", "numero": 5, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Lisa Petit",
+    "sexe": "D",
+    "adreça": { "carrer": "Nou", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Magda Marcó",
+    "sexe": "D",
+    "adreça": { "carrer": "Oli", "numero": 5, "poblacio": "Sant Ficus" },
+    "departament": "Informàtica",
+    "idiomes": ["català", "alemany"]
+  },
+  {
+    "nom": "Bernarda Marsà",
+    "sexe": "D",
+    "adreça": { "carrer": "Fang", "numero": 6, "poblacio": "Sant Ficus" },
+    "departament": "Compres",
+    "idiomes": ["català", "francès"]
+  },
+  {
+    "nom": "Sergi Llorente",
+    "sexe": "H",
+    "adreça": { "carrer": "de l'Església", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Pep Llatser",
+    "sexe": "H",
+    "adreça": { "carrer": "Tres cantons", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": "Marketing",
+    "idiomes": ["català", "castellà"]
+  },
+  {
+    "nom": "Josep Antoni Malé",
+    "sexe": "H",
+    "adreça": { "carrer": "de la Font", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Sara Petrus",
+    "sexe": "D",
+    "adreça": { "carrer": "Major", "numero": 8, "poblacio": "Vilafredat" },
+    "departament": "Vendes",
+    "idiomes": ["xinès", "alemany"]
+  },
+  {
+    "nom": "Maria Lluisa Boix",
+    "sexe": "D",
+    "adreça": { "carrer": "Nou", "numero": 11, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Anas Fernàndez",
+    "sexe": "H",
+    "adreça": { "carrer": "Vi", "numero": 5, "poblacio": "Sant Ficus" },
+    "departament": "Informàtica",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Quim Orobitg",
+    "sexe": "H",
+    "adreça": { "carrer": "Unic", "numero": 10, "poblacio": "Torreta" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Marta Monells",
+    "sexe": "D",
+    "adreça": { "carrer": "Fang", "numero": 9, "poblacio": "Sant Ficus" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Magda Isern",
+    "sexe": "D",
+    "adreça": { "carrer": "Tres cantons", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "alemany", "anglès"]
+  },
+  {
+    "nom": "George Nogué",
+    "sexe": "H",
+    "adreça": { "carrer": "Nevat", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Mireia Medina",
+    "sexe": "D",
+    "adreça": { "carrer": "de la Font", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": "Informàtica",
+    "idiomes": ["català", "anglès", "xinès"]
+  },
+  {
+    "nom": "Maria Lluisa Morral",
+    "sexe": "D",
+    "adreça": { "carrer": "Oli", "numero": 9, "poblacio": "Sant Ficus" },
+    "departament": "Marketing",
+    "idiomes": ["català", "castellà"]
+  },
+  {
+    "nom": "Joana Mach",
+    "sexe": "D",
+    "adreça": { "carrer": "Dos de maig", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["klingon", "català", "alemany", "francès"]
+  },
+  {
+    "nom": "Anna Orobitg",
+    "sexe": "D",
+    "adreça": { "carrer": "Nou", "numero": 1, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "alemany"]
+  },
+  {
+    "nom": "Marti Gutierrez",
+    "sexe": "H",
+    "adreça": { "carrer": "Moll", "numero": 4, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "castellà"]
+  },
+  {
+    "nom": "Joanot Ibarra",
+    "sexe": "H",
+    "adreça": { "carrer": "de l'Església", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Bernat Pinyas",
+    "sexe": "H",
+    "adreça": { "carrer": "Unic", "numero": 7, "poblacio": "Torreta" },
+    "departament": "Informàtica",
+    "idiomes": ["català", "xinès"]
+  },
+  {
+    "nom": "Didac Guixà",
+    "sexe": "H",
+    "adreça": { "carrer": "de l'Església", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Mohamed Casajuana",
+    "sexe": "H",
+    "adreça": { "carrer": "Oli", "numero": 5, "poblacio": "Sant Ficus" },
+    "departament": "Compres",
+    "idiomes": ["català", "castellà"]
+  },
+  {
+    "nom": "David Medrano",
+    "sexe": "H",
+    "adreça": { "carrer": "Mullat", "numero": 3, "poblacio": "Vilamongat" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "anglès", "castellà"]
+  },
+  {
+    "nom": "Maria Àngels Juvany",
+    "sexe": "D",
+    "adreça": { "carrer": "Nou", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès", "alemany"]
+  },
+  {
+    "nom": "Manel Noguer",
+    "sexe": "H",
+    "adreça": { "carrer": "Nou", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català", "castellà", "francès", "anglès", "alemany"]
+  },
+  {
+    "nom": "Fe Pallejà",
+    "sexe": "D",
+    "adreça": { "carrer": "Tres cantons", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès", "francès"]
+  },
+  {
+    "nom": "Francesc Agulla",
+    "sexe": "H",
+    "adreça": { "carrer": "Bassa", "numero": 3, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Antonia Not",
+    "sexe": "D",
+    "adreça": {
+      "carrer": "de l'Ajuntament",
+      "numero": 1,
+      "poblacio": "Vilafredat"
+    },
+    "departament": "Compres",
+    "idiomes": ["català", "xinès", "alemany"]
+  },
+  {
+    "nom": "Anna Masolivé",
+    "sexe": "D",
+    "adreça": { "carrer": "Vi", "numero": 3, "poblacio": "Sant Ficus" },
+    "departament": "Marketing",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Maria Macià",
+    "sexe": "D",
+    "adreça": { "carrer": "de la Font", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Maria Lluisa Just",
+    "sexe": "D",
+    "adreça": {
+      "carrer": "de l'Església",
+      "numero": 10,
+      "poblacio": "Bonyeta"
+    },
+    "departament": "Compres",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Maria Rosa Jornet",
+    "sexe": "D",
+    "adreça": { "carrer": "Tres cantons", "numero": 3, "poblacio": "Bonyeta" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "anglès", "castellà"]
+  },
+  {
+    "nom": "Rosa Molas",
+    "sexe": "D",
+    "adreça": { "carrer": "Nevat", "numero": 3, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès"]
+  },
+  {
+    "nom": "Iu Palau",
+    "sexe": "H",
+    "adreça": { "carrer": "de l'Església", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Marketing",
+    "idiomes": ["català", "xinès"]
+  },
+  {
+    "nom": "Queralt Pelegrí",
+    "sexe": "D",
+    "adreça": { "carrer": "Sec", "numero": 3, "poblacio": "Vilamongat" },
+    "departament": "Compres",
+    "idiomes": ["català", "alemany", "castellà"]
+  },
+  {
+    "nom": "Helena Llach",
+    "sexe": "D",
+    "adreça": { "carrer": "Fang", "numero": 8, "poblacio": "Sant Ficus" },
+    "departament": "Recursos Humans",
+    "idiomes": ["català", "alemany", "xinès"]
+  },
+  {
+    "nom": "Sara Alba",
+    "sexe": "D",
+    "adreça": { "carrer": "Nevat", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": "Marketing",
+    "idiomes": ["català", "castellà", "alemany"]
+  },
+  {
+    "nom": "Met Llort",
+    "sexe": "H",
+    "adreça": { "carrer": "Mullat", "numero": 6, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "anglès", "xinès"]
+  },
+  {
+    "nom": "Bernarda Masdevall",
+    "sexe": "D",
+    "adreça": { "carrer": "Nou", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "alemany"]
+  },
+  {
+    "nom": "Òscar Pinyas",
+    "sexe": "H",
+    "adreça": { "carrer": "Dos de maig", "numero": 5, "poblacio": "Bonyeta" },
+    "departament": "Compres",
+    "idiomes": ["alemany"]
+  },
+  {
+    "nom": "Anas Pont",
+    "sexe": "H",
+    "adreça": { "carrer": "de la Font", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català", "xinès", "alemany"]
+  },
+  {
+    "nom": "Mònica Palomera",
+    "sexe": "D",
+    "adreça": { "carrer": "Moll", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": "Vendes",
+    "idiomes": ["català", "alemany", "francès"]
+  },
+  {
+    "nom": "Mohamed Jové",
+    "sexe": "H",
+    "adreça": { "carrer": "Nou", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  },
+  {
+    "nom": "Magda Marata",
+    "sexe": "D",
+    "adreça": { "carrer": "de l'Església", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": "Vendes",
+    "idiomes": ["català"]
+  }
+]

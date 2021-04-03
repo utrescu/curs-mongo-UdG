@@ -1,0 +1,383 @@
+[
+  {
+    "nom": "Pere",
+    "cognom": "Serra",
+    "adreca": {
+      "carrer": "Mullat",
+      "numero": 17,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Seat", "Opel"]
+  },
+  {
+    "nom": "Angustias",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Moll",
+      "numero": 8,
+      "poblacio": "Vilamongat"
+    }
+  },
+  {
+    "nom": "Manel",
+    "cognom": "Serra",
+    "adreca": {
+      "carrer": "Mullat",
+      "numero": 11,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Fiat", "Opel", "Ferrari", "Volkswagen"],
+    "alcalde": true
+  },
+  {
+    "nom": "Frederic",
+    "cognom": "Cortada",
+    "adreca": {
+      "carrer": "Moll",
+      "numero": 8,
+      "poblacio": "Vilamongat"
+    }
+  },
+  {
+    "nom": "Joan",
+    "cognom": "Clos",
+    "adreca": {
+      "carrer": "Sec",
+      "numero": 1,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Seat", "Fiat"]
+  },
+  {
+    "nom": "Pere",
+    "cognom": "Serra",
+    "adreca": {
+      "carrer": "Fang",
+      "numero": 9,
+      "poblacio": "Sant Ficus"
+    },
+    "cotxes": ["Seat", "Renault", "Citroen", "Nissan"]
+  },
+  {
+    "nom": "Margarita",
+    "cognom": "Puig",
+    "adreca": {
+      "carrer": "Oli",
+      "numero": 15,
+      "poblacio": "Sant Ficus"
+    },
+    "cotxes": ["Renault"],
+    "alcalde": true
+  },
+  {
+    "nom": "Bernat",
+    "cognom": "Cortada",
+    "adreca": {
+      "carrer": "Moll",
+      "numero": 7,
+      "poblacio": "Vilamongat"
+    }
+  },
+  {
+    "nom": "Heribert",
+    "cognom": "Perez",
+    "adreca": {
+      "carrer": "Oli",
+      "numero": 12,
+      "poblacio": "Sant Ficus"
+    }
+  },
+  {
+    "nom": "Joan",
+    "cognom": "Ferrer",
+    "adreca": {
+      "carrer": "Tres cantons",
+      "numero": 7,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Nissan", "Porsche"]
+  },
+  {
+    "nom": "Samuel",
+    "cognom": "Garcia",
+    "adreca": {
+      "carrer": "Mullat",
+      "numero": 3,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Renault"]
+  },
+  {
+    "nom": "Felip",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 1,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Nissan", "Citroen", "Renault"],
+    "alcalde": true
+  },
+  {
+    "nom": "Baldiri",
+    "cognom": "Ferrer",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 2,
+      "poblacio": "Torreta"
+    },
+    "cotxes": ["Ford"]
+  },
+  {
+    "nom": "Marcel",
+    "cognom": "Boix",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 7,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Ford"]
+  },
+  {
+    "nom": "Anna",
+    "cognom": "Garcia",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 3,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Opel", "Renault"]
+  },
+  {
+    "nom": "Frederic",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Mullat",
+      "numero": 2,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Opel"]
+  },
+  {
+    "nom": "Martí",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Mullat",
+      "numero": 1,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Nissan"]
+  },
+  {
+    "nom": "Maria Cinta",
+    "cognom": "Ferrer",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 1,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Seat", "Ford"]
+  },
+  {
+    "nom": "Marta",
+    "cognom": "Serra",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 5,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Ferrari"]
+  },
+  {
+    "nom": "Joaquima",
+    "cognom": "Boix",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 6,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Renault"]
+  },
+  {
+    "nom": "Marcel",
+    "cognom": "Clos",
+    "adreca": {
+      "carrer": "Sec",
+      "numero": 2,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Opel", "Citroen"]
+  },
+  {
+    "nom": "Joanot",
+    "cognom": "Perez",
+    "adreca": {
+      "carrer": "Oli",
+      "numero": 6,
+      "poblacio": "Sant Ficus"
+    },
+    "cotxes": ["Opel"]
+  },
+  {
+    "nom": "Isidre",
+    "cognom": "Ferrer",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 6,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Fiat", "Citroen", "Ford", "Nissan"]
+  },
+  {
+    "nom": "Pere",
+    "cognom": "Boix",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 5,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Citroen", "Ford"]
+  },
+  {
+    "nom": "Joan Anton",
+    "cognom": "Cortada",
+    "adreca": {
+      "carrer": "Unic",
+      "numero": 1,
+      "poblacio": "Torreta"
+    },
+    "cotxes": ["Ferrari", "Porsche"],
+    "alcalde": true
+  },
+  {
+    "nom": "Maria",
+    "cognom": "Puig",
+    "adreca": {
+      "carrer": "Fang",
+      "numero": 3,
+      "poblacio": "Sant Ficus"
+    },
+    "cotxes": ["Fiat"]
+  },
+  {
+    "nom": "Berta",
+    "cognom": "Perez",
+    "adreca": {
+      "carrer": "Fang",
+      "numero": 1,
+      "poblacio": "Sant Ficus"
+    },
+    "cotxes": ["Nissan"]
+  },
+  {
+    "nom": "Maria",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 9,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Opel", "Fiat"]
+  },
+  {
+    "nom": "David",
+    "cognom": "Garcia",
+    "adreca": {
+      "carrer": "Tres cantons",
+      "numero": 1,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Volkswagen"]
+  },
+  {
+    "nom": "Martina",
+    "cognom": "Boix",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 10,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Seat", "Fiat"]
+  },
+  {
+    "nom": "Lluis",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 1,
+      "poblacio": "Vilafredat"
+    },
+    "cotxes": ["Fiat"],
+    "alcalde": true
+  },
+  {
+    "nom": "Oriol",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 2,
+      "poblacio": "Vilafredat"
+    },
+    "cotxes": ["Fiat"]
+  },
+  {
+    "nom": "Josefina",
+    "cognom": "Martinez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 3,
+      "poblacio": "Vilafredat"
+    },
+    "cotxes": ["Fiat"]
+  },
+  {
+    "nom": "Mohamed",
+    "cognom": "Balde",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 4,
+      "poblacio": "Vilafredat"
+    },
+    "cotxes": ["Fiat"]
+  },
+  {
+    "nom": "Jordi",
+    "cognom": "Martínez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 5,
+      "poblacio": "Vilafredat"
+    },
+    "cotxes": ["Fiat"]
+  },
+  {
+    "nom": "Josep",
+    "cognom": "Perez",
+    "adreca": {
+      "carrer": "Major",
+      "numero": 14,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Renault"]
+  },
+  {
+    "nom": "Joan",
+    "cognom": "Serra",
+    "adreca": {
+      "carrer": "Moll",
+      "numero": 1,
+      "poblacio": "Vilamongat"
+    },
+    "cotxes": ["Volkswagen"]
+  },
+  {
+    "nom": "Frederic",
+    "cognom": "Serra",
+    "adreca": {
+      "carrer": "Tres cantons",
+      "numero": 2,
+      "poblacio": "Bonyeta"
+    },
+    "cotxes": ["Seat"]
+  }
+]
