@@ -14,6 +14,25 @@ db.presencia.aggregate([
 ])
 ```
 
+## 2. Quins departaments són els 5 treballadors que cobren menys?
+
+```mongo
+db.presencia.aggregate([
+    {
+        $sort: { "departament.sou": 1 }
+    },
+    {
+        $limit: 5
+    },
+    {
+        $project: {
+            _id:0,
+            Departament: "$departament.nom"
+        }
+    }
+])
+```
+
 ## 2. Mitjana de sous de cada departament?
 
 ```mongo
@@ -47,6 +66,30 @@ db.presencia.aggregate([
 ])
 ```
 
+## 5. Quines dues setmanes han estat les que han tingut més baixes?
+
+```mongo
+db.presencia.aggregate([
+    {
+        $unwind: "$setmanes"
+    },
+    {
+        $project: {
+            numero: "$setmanes.número",
+            faltes : { $subtract: [2, { $size: "$setmanes.dies" }] }
+        }
+    },
+    {
+        $group: {
+            _id: "$numero",
+            suma: { $sum: "$faltes" }
+        }
+    },
+    { $sort: { "suma": -1 } },
+    { $limit: 2 }
+])
+```
+
 ## 4. Quina assistència tenim cada dia?
 
 ```mongo
@@ -68,7 +111,7 @@ db.presencia.aggregate([
     ])
 ```
 
-## 5. Quins dies hi ha algú del departament d'informàtica?
+## 5. Quins dies hi ha algú del departament d'Informàtica?
 
 ```mongo
 db.presencia.aggregate([

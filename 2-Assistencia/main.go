@@ -179,14 +179,15 @@ func generaSetmanes(dies []string, excuses []string) []Setmana {
 	diesTriats := dies[:2]
 
 	seguentSetmana := 1
+	excusa := ""
 
 	for i := 1; i <= SETMANES; i++ {
 
-		if seguentSetmana == i {
+		diesPresencia := make([]string, len(diesTriats))
+		copy(diesPresencia, diesTriats)
 
-			diesPresencia := make([]string, len(diesTriats))
-			copy(diesPresencia, diesTriats)
-			excusa := ""
+		if seguentSetmana == i {
+			excusa = ""
 			seguentSetmana = i + 1
 
 			// Comprova si s'ha escaquejat ...
@@ -200,13 +201,15 @@ func generaSetmanes(dies []string, excuses []string) []Setmana {
 				seguentSetmana += wait
 			}
 
-			setmana := Setmana{
-				Numero:       i,
-				Dies:         diesPresencia,
-				Justificacio: excusa,
-			}
-			setmanes = append(setmanes, setmana)
+		} else {
+			diesPresencia = make([]string, 0)
 		}
+		setmana := Setmana{
+			Numero:       i,
+			Dies:         diesPresencia,
+			Justificacio: excusa,
+		}
+		setmanes = append(setmanes, setmana)
 	}
 	return setmanes
 }

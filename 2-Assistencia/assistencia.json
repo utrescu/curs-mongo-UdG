@@ -1,709 +1,244 @@
 [
   {
-    "nom": "Max",
-    "cognoms": "Pi Pastoret",
-    "adreça": { "carrer": "Canal", "numero": 7, "poblacio": "Bonyeta" },
+    "nom": "Charly",
+    "cognoms": "Monells Juanola",
+    "adreça": { "carrer": "Dos de maig", "numero": 8, "poblacio": "Bonyeta" },
     "departament": {
       "nom": "Vendes",
       "càrrec": "Cap de Departament",
-      "sou": 3900
+      "sou": 3300
     },
     "setmanes": [
-      { "número": 1, "dies": ["divendres", "dijous"] },
-      { "número": 2, "dies": ["divendres", "dijous"] },
-      { "número": 3, "dies": ["dijous"], "justificacio": "Malaltia" }
+      { "número": 1, "dies": ["divendres", "dilluns"] },
+      { "número": 2, "dies": ["divendres", "dilluns"] },
+      { "número": 3, "dies": ["divendres", "dilluns"] },
+      { "número": 4, "dies": ["divendres", "dilluns"] },
+      { "número": 5, "dies": ["divendres", "dilluns"] }
     ]
   },
   {
-    "nom": "Pitu",
-    "cognoms": "Pi Serra",
-    "adreça": { "carrer": "Sant Bonastre", "numero": 2, "poblacio": "Bonyeta" },
-    "departament": {
-      "nom": "Marketing",
-      "càrrec": "Cap de Departament",
-      "sou": 3600
-    },
+    "nom": "Montserrat",
+    "cognoms": "Montià Llofriu",
+    "adreça": { "carrer": "Nou", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["dimarts", "dijous"] },
-      { "número": 4, "dies": ["dimarts", "dijous"] },
-      { "número": 5, "dies": ["dimarts", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Maria Lluisa",
-    "cognoms": "Puig Guasch",
-    "adreça": { "carrer": "de la Font", "numero": 5, "poblacio": "Bonyeta" },
-    "departament": {
-      "nom": "Compres",
-      "càrrec": "Cap de Departament",
-      "sou": 3500
-    },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimarts"] },
-      { "número": 2, "dies": ["dilluns", "dimarts"] },
-      { "número": 3, "dies": ["dilluns", "dimarts"] },
-      { "número": 4, "dies": ["dilluns", "dimarts"] },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" }
-    ]
-  },
-  {
-    "nom": "Max",
-    "cognoms": "Mercadé Matute",
-    "adreça": { "carrer": "Dos de maig", "numero": 8, "poblacio": "Bonyeta" },
-    "departament": {
-      "nom": "Informàtica",
-      "càrrec": "Cap de Departament",
-      "sou": 3700
-    },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "divendres"] },
-      {
-        "número": 2,
-        "dies": ["divendres"],
-        "justificacio": "Assumptes pròpis"
-      },
-      { "número": 3, "dies": ["dijous", "divendres"] },
-      {
-        "número": 4,
-        "dies": ["divendres"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 5, "dies": ["dijous", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Jean",
-    "cognoms": "Jaques Ordeig",
-    "adreça": { "carrer": "Major", "numero": 3, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dijous"] },
-      { "número": 2, "dies": ["dilluns", "dijous"] },
-      { "número": 3, "dies": ["dijous"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Ot",
-    "cognoms": "Nogué Linares",
-    "adreça": { "carrer": "Fangós", "numero": 8, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dimarts"] },
-      { "número": 2, "dies": ["dimecres", "dimarts"] },
-      {
-        "número": 3,
-        "dies": ["dimarts"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 4, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
-    ]
-  },
-  {
-    "nom": "Antonia",
-    "cognoms": "Llenas Pedreño",
-    "adreça": { "carrer": "Fang", "numero": 9, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dijous"] },
-      { "número": 2, "dies": ["dimecres", "dijous"] },
-      { "número": 3, "dies": ["dimecres", "dijous"] },
-      { "número": 4, "dies": ["dimecres", "dijous"] },
-      { "número": 5, "dies": ["dimecres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Pere",
-    "cognoms": "Orobitg Pedrol",
-    "adreça": { "carrer": "Tres cantons", "numero": 3, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "dimarts"] },
-      { "número": 2, "dies": ["dijous", "dimarts"] },
-      { "número": 3, "dies": ["dijous", "dimarts"] },
-      { "número": 4, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 1, "dies": ["dijous"], "justificacio": "Malaltia" },
+      { "número": 2, "dies": [], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": ["dijous"], "justificacio": "Assumptes pròpis" },
       { "número": 5, "dies": ["dijous", "dimarts"] }
     ]
   },
   {
-    "nom": "Met",
-    "cognoms": "Llorente Masllorens",
-    "adreça": { "carrer": "Nevat", "numero": 1, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Marketing", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "dilluns"] },
-      { "número": 2, "dies": ["dijous"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["dijous", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Jean",
-    "cognoms": "Matarodona Masllorens",
-    "adreça": { "carrer": "Mullat", "numero": 3, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimecres"] },
-      { "número": 2, "dies": ["dilluns"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["dilluns", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Joan",
-    "cognoms": "Terrats Miravet",
-    "adreça": { "carrer": "de la Font", "numero": 1, "poblacio": "Bonyeta" },
+    "nom": "Francesc",
+    "cognoms": "Munné Marata",
+    "adreça": { "carrer": "Moll", "numero": 7, "poblacio": "Vilamongat" },
     "departament": { "nom": "Vendes", "sou": 2200 },
     "setmanes": [
-      { "número": 1, "dies": ["dimecres", "divendres"] },
-      { "número": 2, "dies": ["dimecres", "divendres"] },
-      { "número": 3, "dies": ["dimecres", "divendres"] },
-      { "número": 4, "dies": ["dimecres", "divendres"] },
-      { "número": 5, "dies": ["dimecres", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Sergi",
-    "cognoms": "Picanyol Ingla",
-    "adreça": { "carrer": "Nevat", "numero": 3, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "divendres"] },
-      { "número": 2, "dies": ["dilluns", "divendres"] },
-      {
-        "número": 3,
-        "dies": ["divendres"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 4, "dies": ["dilluns", "divendres"] },
-      { "número": 5, "dies": ["dilluns", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Joanot",
-    "cognoms": "Juvany Iranzo",
-    "adreça": { "carrer": "Mullat", "numero": 10, "poblacio": "Vilamongat" },
-    "departament": {
-      "nom": "Recursos Humans",
-      "càrrec": "Cap de Departament",
-      "sou": 3800
-    },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["dimecres", "dimarts"] },
-      { "número": 4, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
-      { "número": 5, "dies": ["dimecres", "dimarts"] }
-    ]
-  },
-  {
-    "nom": "Filomenu",
-    "cognoms": "March Hom",
-    "adreça": { "carrer": "Sec", "numero": 9, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dimarts"] },
-      { "número": 2, "dies": ["dimecres", "dimarts"] },
-      { "número": 3, "dies": ["dimecres", "dimarts"] },
-      {
-        "número": 4,
-        "dies": ["dimecres"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 5, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
-    ]
-  },
-  {
-    "nom": "Sergi",
-    "cognoms": "Agulla Luque",
-    "adreça": { "carrer": "Nevat", "numero": 4, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2300 },
-    "setmanes": [
-      {
-        "número": 1,
-        "dies": ["dimarts"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 2, "dies": ["dimarts", "dijous"] },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dijous"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Marta",
-    "cognoms": "Sabater Vives",
-    "adreça": { "carrer": "Unic", "numero": 8, "poblacio": "Torreta" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dimecres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Pep",
-    "cognoms": "Manzano Palop",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 4,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Compres", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "divendres"] },
-      { "número": 2, "dies": ["dimarts", "divendres"] },
-      { "número": 3, "dies": ["dimarts", "divendres"] },
-      { "número": 4, "dies": ["dimarts", "divendres"] },
-      { "número": 5, "dies": ["divendres"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Bruna",
-    "cognoms": "Julià Lozano",
-    "adreça": { "carrer": "Dos de maig", "numero": 5, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres"], "justificacio": "Malaltia" },
-      { "número": 4, "dies": ["dilluns", "divendres"] },
-      { "número": 5, "dies": ["dilluns", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Gerard",
-    "cognoms": "Mont Mascarell",
-    "adreça": { "carrer": "Bassa", "numero": 2, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Marketing", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "dilluns"] },
-      { "número": 2, "dies": ["dimarts", "dilluns"] },
-      { "número": 3, "dies": ["dimarts", "dilluns"] },
-      { "número": 4, "dies": ["dimarts", "dilluns"] },
-      { "número": 5, "dies": ["dimarts", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Joanot",
-    "cognoms": "Masdefiol Iglesias",
-    "adreça": { "carrer": "Bassa", "numero": 7, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dilluns"] },
-      { "número": 2, "dies": ["divendres", "dilluns"] },
-      { "número": 3, "dies": ["divendres", "dilluns"] },
-      { "número": 4, "dies": ["divendres", "dilluns"] },
-      { "número": 5, "dies": ["divendres", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Maria Àngels",
-    "cognoms": "Guevara Iranzo",
-    "adreça": { "carrer": "Major", "numero": 7, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "dilluns"] },
-      { "número": 2, "dies": ["dimarts", "dilluns"] },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
-      { "número": 4, "dies": ["dimarts", "dilluns"] },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Infecció CoVID" }
-    ]
-  },
-  {
-    "nom": "Mònica",
-    "cognoms": "Soler Masvidal",
-    "adreça": { "carrer": "Major", "numero": 3, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dilluns"] },
-      { "número": 2, "dies": ["divendres", "dilluns"] },
-      { "número": 3, "dies": ["divendres", "dilluns"] },
-      { "número": 4, "dies": ["divendres", "dilluns"] },
-      { "número": 5, "dies": ["divendres", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Sergi",
-    "cognoms": "Pesarrodona Guvern",
-    "adreça": { "carrer": "Oli", "numero": 8, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Compres", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "divendres"] },
-      { "número": 2, "dies": ["dijous", "divendres"] },
-      { "número": 3, "dies": ["dijous", "divendres"] },
-      { "número": 4, "dies": ["dijous", "divendres"] },
-      {
-        "número": 5,
-        "dies": ["divendres"],
-        "justificacio": "Permís de direcció"
-      }
-    ]
-  },
-  {
-    "nom": "Diego",
-    "cognoms": "Jaques Hernández",
-    "adreça": { "carrer": "Mullat", "numero": 4, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dilluns"] },
-      { "número": 2, "dies": ["dimecres", "dilluns"] },
-      { "número": 3, "dies": ["dimecres", "dilluns"] },
-      { "número": 4, "dies": ["dimecres", "dilluns"] },
-      { "número": 5, "dies": ["dimecres", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Joanot",
-    "cognoms": "Juanola Vives",
-    "adreça": { "carrer": "de la Font", "numero": 8, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Compres", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "divendres"] },
-      { "número": 2, "dies": ["dimarts", "divendres"] },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
-      { "número": 4, "dies": ["dimarts", "divendres"] },
-      { "número": 5, "dies": ["dimarts", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Anas",
-    "cognoms": "Julià Rubio",
-    "adreça": { "carrer": "Tres cantons", "numero": 5, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
-    "setmanes": [
-      {
-        "número": 1,
-        "dies": ["divendres"],
-        "justificacio": "Assumptes pròpis"
-      },
-      { "número": 2, "dies": ["divendres", "dimecres"] },
-      { "número": 3, "dies": ["divendres", "dimecres"] },
-      { "número": 4, "dies": ["divendres", "dimecres"] },
-      { "número": 5, "dies": ["divendres", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Víctor",
-    "cognoms": "Mont Guevara",
-    "adreça": { "carrer": "Mullat", "numero": 1, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dimarts"] },
-      { "número": 2, "dies": ["divendres", "dimarts"] },
-      { "número": 3, "dies": ["divendres", "dimarts"] },
-      { "número": 4, "dies": ["divendres", "dimarts"] },
-      { "número": 5, "dies": ["divendres", "dimarts"] }
-    ]
-  },
-  {
-    "nom": "Met",
-    "cognoms": "Pijoan Llorens",
-    "adreça": { "carrer": "Moll", "numero": 9, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "divendres"] },
-      { "número": 2, "dies": ["dimecres", "divendres"] },
-      { "número": 3, "dies": ["dimecres", "divendres"] },
-      { "número": 4, "dies": ["dimecres", "divendres"] },
-      { "número": 5, "dies": ["divendres"], "justificacio": "Assumptes pròpis" }
-    ]
-  },
-  {
-    "nom": "Paco",
-    "cognoms": "Parra Huguet",
-    "adreça": { "carrer": "Sant Bonastre", "numero": 3, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Compres", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "dilluns"] },
-      { "número": 2, "dies": ["dijous", "dilluns"] },
-      { "número": 3, "dies": ["dijous", "dilluns"] },
-      { "número": 4, "dies": ["dijous", "dilluns"] },
-      { "número": 5, "dies": ["dijous", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Didac",
-    "cognoms": "Aubert Vives",
-    "adreça": { "carrer": "Oli", "numero": 4, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Marketing", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "divendres"] },
-      { "número": 2, "dies": ["dilluns", "divendres"] },
-      { "número": 3, "dies": ["dilluns", "divendres"] },
-      { "número": 4, "dies": ["dilluns", "divendres"] },
-      { "número": 5, "dies": ["dilluns", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Jean",
-    "cognoms": "Bru Platja",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 10,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Vendes", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dijous"] },
-      { "número": 2, "dies": ["dimecres", "dijous"] },
-      { "número": 3, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dimecres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Susanna",
-    "cognoms": "Mitjavila Roure",
-    "adreça": { "carrer": "Fangós", "numero": 7, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Informàtica", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "dimecres"] },
-      { "número": 2, "dies": ["dijous", "dimecres"] },
-      { "número": 3, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dijous"], "justificacio": "Permís de direcció" }
-    ]
-  },
-  {
-    "nom": "Mercè",
-    "cognoms": "Lozano Alemany",
-    "adreça": { "carrer": "Oli", "numero": 7, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Informàtica", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "dimarts"] },
-      { "número": 2, "dies": ["dijous", "dimarts"] },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Permís de direcció" }
-    ]
-  },
-  {
-    "nom": "David",
-    "cognoms": "Tió Marot",
-    "adreça": { "carrer": "Bassa", "numero": 1, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "divendres"] },
-      { "número": 2, "dies": ["dimecres", "divendres"] },
-      { "número": 3, "dies": ["dimecres", "divendres"] },
-      {
-        "número": 4,
-        "dies": ["divendres"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 5, "dies": ["dimecres", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Frederic",
-    "cognoms": "Llanet Marsà",
-    "adreça": { "carrer": "Tres cantons", "numero": 1, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Recursos Humans", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dijous"] },
-      { "número": 2, "dies": ["dimecres", "dijous"] },
-      { "número": 3, "dies": ["dimecres", "dijous"] },
-      { "número": 4, "dies": ["dimecres", "dijous"] },
-      { "número": 5, "dies": ["dimecres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Frederic",
-    "cognoms": "Huguet Masolivé",
-    "adreça": { "carrer": "Oli", "numero": 1, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Informàtica", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "divendres"] },
-      { "número": 2, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
-      { "número": 4, "dies": ["dijous", "divendres"] },
-      { "número": 5, "dies": ["dijous", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Joan Josep",
-    "cognoms": "Jornet Lozano",
-    "adreça": { "carrer": "Unic", "numero": 9, "poblacio": "Torreta" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dimarts"] },
-      { "número": 2, "dies": ["divendres", "dimarts"] },
-      { "número": 3, "dies": ["divendres", "dimarts"] },
-      { "número": 4, "dies": ["divendres", "dimarts"] },
-      { "número": 5, "dies": ["divendres", "dimarts"] }
-    ]
-  },
-  {
-    "nom": "Sergi",
-    "cognoms": "Masvidal Alemany",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 7,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Recursos Humans", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "dilluns"] },
-      { "número": 2, "dies": ["dimarts", "dilluns"] },
-      {
-        "número": 3,
-        "dies": ["dilluns"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 4, "dies": ["dimarts", "dilluns"] },
-      { "número": 5, "dies": ["dimarts", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Mary",
-    "cognoms": "Moragues Pey",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 10,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Informàtica", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Malaltia" },
-      { "número": 4, "dies": ["dimarts"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Jean",
-    "cognoms": "Montroig Iranzo",
-    "adreça": { "carrer": "Moll", "numero": 7, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      {
-        "número": 1,
-        "dies": ["divendres"],
-        "justificacio": "Assumptes pròpis"
-      },
-      { "número": 2, "dies": ["divendres", "dilluns"] },
-      { "número": 3, "dies": ["divendres", "dilluns"] },
-      { "número": 4, "dies": ["divendres", "dilluns"] },
-      { "número": 5, "dies": ["dilluns"], "justificacio": "Permís de direcció" }
-    ]
-  },
-  {
-    "nom": "Mercè",
-    "cognoms": "Pijoan Mula",
-    "adreça": { "carrer": "Sec", "numero": 6, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "dimarts"] },
-      { "número": 2, "dies": ["dijous", "dimarts"] },
-      { "número": 3, "dies": ["dijous", "dimarts"] },
-      { "número": 4, "dies": ["dimarts"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Víctor",
-    "cognoms": "Isanta Jorquera",
-    "adreça": { "carrer": "de la Font", "numero": 4, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Compres", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous"], "justificacio": "Assumptes pròpis" },
-      { "número": 2, "dies": ["dimecres", "dijous"] },
-      { "número": 3, "dies": ["dimecres", "dijous"] },
-      { "número": 4, "dies": ["dimecres", "dijous"] },
-      { "número": 5, "dies": ["dimecres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Sònia",
-    "cognoms": "Alcoberro Marsany",
-    "adreça": { "carrer": "Unic", "numero": 1, "poblacio": "Torreta" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimecres"] },
-      { "número": 2, "dies": ["dilluns", "dimecres"] },
-      { "número": 3, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dilluns", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Rosa Maria",
-    "cognoms": "Viu Padilla",
-    "adreça": { "carrer": "Dos de maig", "numero": 6, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Marketing", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "dilluns"] },
-      { "número": 2, "dies": ["dimarts", "dilluns"] },
-      { "número": 3, "dies": ["dimarts", "dilluns"] },
-      { "número": 4, "dies": ["dimarts", "dilluns"] },
-      { "número": 5, "dies": ["dimarts", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Cesc",
-    "cognoms": "Pijoan Petit",
-    "adreça": { "carrer": "Vi", "numero": 7, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["dilluns", "dimecres"] },
-      { "número": 4, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
-      { "número": 5, "dies": ["dilluns", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Angela",
-    "cognoms": "Manzano Moron",
-    "adreça": { "carrer": "Unic", "numero": 6, "poblacio": "Torreta" },
-    "departament": { "nom": "Marketing", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimarts", "dimecres"] },
+      { "número": 3, "dies": ["dimarts", "dimecres"] },
       { "número": 4, "dies": ["dimarts", "dimecres"] },
       { "número": 5, "dies": ["dimarts", "dimecres"] }
     ]
   },
   {
-    "nom": "David",
-    "cognoms": "Marcu Pericas",
-    "adreça": { "carrer": "Unic", "numero": 10, "poblacio": "Torreta" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
+    "nom": "Jean",
+    "cognoms": "Lozano Jaques",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts", "divendres"] },
       {
-        "número": 2,
+        "número": 1,
         "dies": ["divendres"],
         "justificacio": "Assumptes pròpis"
       },
+      { "número": 2, "dies": ["dijous", "divendres"] },
+      { "número": 3, "dies": ["dijous", "divendres"] },
+      {
+        "número": 4,
+        "dies": ["divendres"],
+        "justificacio": "Assumptes pròpis"
+      },
+      { "número": 5, "dies": ["dijous", "divendres"] }
+    ]
+  },
+  {
+    "nom": "Jean",
+    "cognoms": "Pitarch Marot",
+    "adreça": { "carrer": "de l'Església", "numero": 8, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      {
+        "número": 3,
+        "dies": ["divendres"],
+        "justificacio": "Assumptes pròpis"
+      },
+      { "número": 4, "dies": ["divendres", "dimarts"] },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Maria",
+    "cognoms": "Huguet Morral",
+    "adreça": { "carrer": "Sec", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": {
+      "nom": "Compres",
+      "càrrec": "Cap de Departament",
+      "sou": 3200
+    },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres", "dimecres"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["divendres", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "George",
+    "cognoms": "Marcó Monells",
+    "adreça": { "carrer": "Unic", "numero": 6, "poblacio": "Torreta" },
+    "departament": { "nom": "Compres", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dimarts"], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Mireia",
+    "cognoms": "Pont León",
+    "adreça": {
+      "carrer": "de l'Església",
+      "numero": 10,
+      "poblacio": "Bonyeta"
+    },
+    "departament": { "nom": "Compres", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dilluns"] },
+      { "número": 2, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dimarts", "dilluns"] },
+      { "número": 4, "dies": ["dimarts", "dilluns"] },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Òscar",
+    "cognoms": "Marqués Jaques",
+    "adreça": { "carrer": "Fangós", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": {
+      "nom": "Informàtica",
+      "càrrec": "Cap de Departament",
+      "sou": 3900
+    },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dilluns"] },
+      {
+        "número": 2,
+        "dies": ["dilluns"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 3, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Joan Josep",
+    "cognoms": "Latre Orobitg",
+    "adreça": { "carrer": "Major", "numero": 4, "poblacio": "Vilafredat" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dilluns"] },
+      { "número": 2, "dies": ["dimarts", "dilluns"] },
+      { "número": 3, "dies": ["dimarts", "dilluns"] },
+      { "número": 4, "dies": ["dimarts", "dilluns"] },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Felicitat",
+    "cognoms": "Marsà Pi",
+    "adreça": { "carrer": "Fang", "numero": 6, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Vendes", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "divendres"] },
+      { "número": 2, "dies": ["dimarts", "divendres"] },
       { "número": 3, "dies": ["dimarts", "divendres"] },
       { "número": 4, "dies": ["dimarts", "divendres"] },
       { "número": 5, "dies": ["dimarts", "divendres"] }
     ]
   },
   {
-    "nom": "Ernest",
-    "cognoms": "Manzano Llauradó",
-    "adreça": { "carrer": "Tres cantons", "numero": 4, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Informàtica", "sou": 2300 },
+    "nom": "Martirio",
+    "cognoms": "Junyent Vives",
+    "adreça": {
+      "carrer": "de l'Ajuntament",
+      "numero": 6,
+      "poblacio": "Vilafredat"
+    },
+    "departament": { "nom": "Vendes", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["divendres"], "justificacio": "Malaltia" },
-      { "número": 4, "dies": ["dimarts", "divendres"] },
-      { "número": 5, "dies": ["dimarts", "divendres"] }
+      { "número": 1, "dies": ["dilluns", "divendres"] },
+      { "número": 2, "dies": ["dilluns", "divendres"] },
+      { "número": 3, "dies": ["dilluns", "divendres"] },
+      { "número": 4, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 5, "dies": ["dilluns"], "justificacio": "Malaltia" }
     ]
   },
   {
-    "nom": "Maria Rosa",
-    "cognoms": "Masachs Marcó",
-    "adreça": { "carrer": "Mullat", "numero": 8, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2000 },
+    "nom": "Filomenu",
+    "cognoms": "Mercadé Morral",
+    "adreça": { "carrer": "Dos de maig", "numero": 1, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
     "setmanes": [
-      { "número": 1, "dies": ["divendres", "dijous"] },
-      { "número": 2, "dies": ["divendres", "dijous"] },
-      { "número": 3, "dies": ["dijous"], "justificacio": "Malaltia" }
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 2, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
     ]
   },
   {
-    "nom": "Pol",
-    "cognoms": "Paraire Casajuana",
-    "adreça": { "carrer": "Canal", "numero": 6, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
+    "nom": "Bernarda",
+    "cognoms": "Piqueras Pujol",
+    "adreça": { "carrer": "Unic", "numero": 6, "poblacio": "Torreta" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Malaltia" }
+      { "número": 1, "dies": ["dijous", "dimecres"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
     ]
   },
   {
-    "nom": "Montserrat",
-    "cognoms": "Jorba Guimerà",
-    "adreça": { "carrer": "Oli", "numero": 3, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2200 },
+    "nom": "Mercè",
+    "cognoms": "Isern Just",
+    "adreça": { "carrer": "Dos de maig", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": {
+      "nom": "Marketing",
+      "càrrec": "Cap de Departament",
+      "sou": 3900
+    },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimecres"] },
+      { "número": 2, "dies": ["dijous", "dimecres"] },
+      { "número": 3, "dies": ["dijous", "dimecres"] },
+      { "número": 4, "dies": ["dijous", "dimecres"] },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Didac",
+    "cognoms": "Codina Palomera",
+    "adreça": { "carrer": "Bassa", "numero": 10, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Marketing", "sou": 2400 },
     "setmanes": [
       { "número": 1, "dies": ["dimecres", "dimarts"] },
       { "número": 2, "dies": ["dimecres", "dimarts"] },
@@ -713,180 +248,44 @@
     ]
   },
   {
-    "nom": "Helena",
-    "cognoms": "Messegué Marqués",
-    "adreça": { "carrer": "Fang", "numero": 3, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
+    "nom": "Joana",
+    "cognoms": "Pey Marín",
+    "adreça": { "carrer": "Nevat", "numero": 10, "poblacio": "Vilamongat" },
+    "departament": {
+      "nom": "Recursos Humans",
+      "càrrec": "Cap de Departament",
+      "sou": 4300
+    },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
-      { "número": 2, "dies": ["dijous"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["dijous"], "justificacio": "Infecció CoVID" }
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 2, "dies": [], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": ["dijous", "dilluns"] },
+      { "número": 5, "dies": ["dijous", "dilluns"] }
     ]
   },
   {
-    "nom": "Marta",
-    "cognoms": "Serra González",
-    "adreça": { "carrer": "Major", "numero": 2, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
+    "nom": "Homer",
+    "cognoms": "Bonastre Iranzo",
+    "adreça": { "carrer": "Moll", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
     "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dijous"] },
-      { "número": 2, "dies": ["dijous"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["dimecres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Rosa",
-    "cognoms": "Malla Ortiz",
-    "adreça": { "carrer": "Bassa", "numero": 8, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dijous"] },
-      { "número": 2, "dies": ["divendres", "dijous"] },
-      { "número": 3, "dies": ["divendres", "dijous"] },
       {
-        "número": 4,
-        "dies": ["divendres"],
+        "número": 1,
+        "dies": ["dimarts"],
         "justificacio": "Permís de direcció"
       },
-      { "número": 5, "dies": ["divendres", "dijous"] }
+      { "número": 2, "dies": ["dimarts", "dimecres"] },
+      { "número": 3, "dies": ["dimarts", "dimecres"] },
+      { "número": 4, "dies": ["dimarts", "dimecres"] },
+      { "número": 5, "dies": ["dimarts", "dimecres"] }
     ]
   },
   {
-    "nom": "Zeus",
-    "cognoms": "Nogué Moragues",
-    "adreça": { "carrer": "Dos de maig", "numero": 6, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dilluns"] },
-      { "número": 2, "dies": ["divendres", "dilluns"] },
-      { "número": 3, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["divendres", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Aina",
-    "cognoms": "Malé Pijoan",
+    "nom": "Candela",
+    "cognoms": "Mínguez Guardiola",
     "adreça": { "carrer": "Major", "numero": 10, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dimecres"] },
-      { "número": 2, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
-      { "número": 3, "dies": ["divendres", "dimecres"] },
-      { "número": 4, "dies": ["divendres", "dimecres"] },
-      { "número": 5, "dies": ["divendres", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Mary",
-    "cognoms": "Mayné Pedrol",
-    "adreça": { "carrer": "Vi", "numero": 8, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Compres", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts", "divendres"] },
-      {
-        "número": 2,
-        "dies": ["divendres"],
-        "justificacio": "Assumptes pròpis"
-      },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
-      { "número": 4, "dies": ["dimarts", "divendres"] },
-      { "número": 5, "dies": ["dimarts", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Mònica",
-    "cognoms": "Manyé Sonet",
-    "adreça": { "carrer": "Unic", "numero": 10, "poblacio": "Torreta" },
-    "departament": { "nom": "Compres", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dimarts"] },
-      { "número": 2, "dies": ["divendres", "dimarts"] },
-      { "número": 3, "dies": ["divendres", "dimarts"] },
-      { "número": 4, "dies": ["divendres", "dimarts"] },
-      { "número": 5, "dies": ["divendres", "dimarts"] }
-    ]
-  },
-  {
-    "nom": "Sergi",
-    "cognoms": "Oliva Boix",
-    "adreça": { "carrer": "Nou", "numero": 2, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Compres", "sou": 2300 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["divendres", "dijous"] },
-      { "número": 4, "dies": ["divendres", "dijous"] },
-      { "número": 5, "dies": ["divendres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Mohamed",
-    "cognoms": "Laborda Ortiz",
-    "adreça": { "carrer": "Vi", "numero": 6, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dijous"] },
-      { "número": 2, "dies": ["dilluns", "dijous"] },
-      { "número": 3, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" }
-    ]
-  },
-  {
-    "nom": "Frederic",
-    "cognoms": "Llenas Piqueras",
-    "adreça": { "carrer": "Fangós", "numero": 2, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimecres"] },
-      { "número": 2, "dies": ["dilluns", "dimecres"] },
-      { "número": 3, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dilluns", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Manel",
-    "cognoms": "Maginet Morral",
-    "adreça": { "carrer": "Fangós", "numero": 10, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dijous"] },
-      { "número": 2, "dies": ["divendres", "dijous"] },
-      { "número": 3, "dies": ["divendres", "dijous"] },
-      { "número": 4, "dies": ["divendres", "dijous"] },
-      { "número": 5, "dies": ["divendres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Jou",
-    "cognoms": "Matarodona Llansana",
-    "adreça": { "carrer": "Sec", "numero": 2, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["dijous", "divendres"] },
-      { "número": 2, "dies": ["dijous", "divendres"] },
-      { "número": 3, "dies": ["dijous", "divendres"] },
-      { "número": 4, "dies": ["dijous", "divendres"] },
-      { "número": 5, "dies": ["dijous", "divendres"] }
-    ]
-  },
-  {
-    "nom": "Sara",
-    "cognoms": "Parra Pairó",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 4,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Informàtica", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres"], "justificacio": "Malaltia" },
-      { "número": 4, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
-    ]
-  },
-  {
-    "nom": "Mònica",
-    "cognoms": "Guirao Llesera",
-    "adreça": { "carrer": "Unic", "numero": 10, "poblacio": "Torreta" },
-    "departament": { "nom": "Marketing", "sou": 2100 },
+    "departament": { "nom": "Vendes", "sou": 2300 },
     "setmanes": [
       { "número": 1, "dies": ["divendres", "dimecres"] },
       { "número": 2, "dies": ["divendres", "dimecres"] },
@@ -896,115 +295,307 @@
     ]
   },
   {
-    "nom": "Alfred",
-    "cognoms": "Moron Taberner",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 6,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Compres", "sou": 2300 },
+    "nom": "Paco",
+    "cognoms": "Moragues Oveja",
+    "adreça": { "carrer": "Oli", "numero": 8, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Informàtica", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Malaltia" },
-      {
-        "número": 4,
-        "dies": ["dimarts"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" }
+      { "número": 1, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 2, "dies": [], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": ["dimecres", "dijous"] },
+      { "número": 5, "dies": ["dimecres", "dijous"] }
     ]
   },
   {
-    "nom": "Òscar",
-    "cognoms": "Marsà Bonastre",
-    "adreça": { "carrer": "Tres cantons", "numero": 4, "poblacio": "Bonyeta" },
+    "nom": "Susanna",
+    "cognoms": "León Palau",
+    "adreça": { "carrer": "Fangós", "numero": 7, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dilluns"] },
+      { "número": 2, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dijous", "dilluns"] },
+      { "número": 4, "dies": ["dijous", "dilluns"] },
+      { "número": 5, "dies": ["dijous"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Baldiri",
+    "cognoms": "Masclans Pinot",
+    "adreça": { "carrer": "de la Font", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dilluns"] },
+      { "número": 2, "dies": ["dijous", "dilluns"] },
+      { "número": 3, "dies": ["dijous", "dilluns"] },
+      { "número": 4, "dies": ["dijous", "dilluns"] },
+      { "número": 5, "dies": ["dijous", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Maria Àngels",
+    "cognoms": "Petrus Llanet",
+    "adreça": { "carrer": "de l'Església", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Informàtica", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dijous"] },
+      { "número": 2, "dies": ["dimarts", "dijous"] },
+      {
+        "número": 3,
+        "dies": ["dimarts"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 4, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 5, "dies": ["dimarts", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Cristian",
+    "cognoms": "Pijoan Agulla",
+    "adreça": { "carrer": "Moll", "numero": 10, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "dilluns"] },
+      { "número": 2, "dies": ["dimecres", "dilluns"] },
+      {
+        "número": 3,
+        "dies": ["dilluns"],
+        "justificacio": "Permís de direcció"
+      },
+      {
+        "número": 4,
+        "dies": ["dimecres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 5, "dies": ["dimecres", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Joan Josep",
+    "cognoms": "Maurell Not",
+    "adreça": { "carrer": "Oli", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Vendes", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 2, "dies": ["dijous", "dimecres"] },
+      {
+        "número": 3,
+        "dies": ["dimecres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 4, "dies": ["dijous", "dimecres"] },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Anna",
+    "cognoms": "Pesarrodona León",
+    "adreça": { "carrer": "de la Font", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Compres", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "dimarts"] },
+      { "número": 2, "dies": ["dimecres", "dimarts"] },
+      { "número": 3, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
+      {
+        "número": 4,
+        "dies": ["dimecres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 5, "dies": ["dimecres", "dimarts"] }
+    ]
+  },
+  {
+    "nom": "Joanot",
+    "cognoms": "Serra Gutierrez",
+    "adreça": { "carrer": "Fang", "numero": 3, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dilluns", "dijous"] },
+      { "número": 4, "dies": ["dilluns", "dijous"] },
+      { "número": 5, "dies": ["dilluns"], "justificacio": "Permís de direcció" }
+    ]
+  },
+  {
+    "nom": "Iu",
+    "cognoms": "Martell Marín",
+    "adreça": { "carrer": "Canal", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Recursos Humans", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dilluns"] },
+      { "número": 2, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dijous", "dilluns"] },
+      { "número": 4, "dies": ["dijous", "dilluns"] },
+      { "número": 5, "dies": ["dijous", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Miquel",
+    "cognoms": "Malé Munné",
+    "adreça": { "carrer": "Vi", "numero": 7, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Marketing", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "divendres"] },
+      { "número": 2, "dies": ["dilluns", "divendres"] },
+      { "número": 3, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Homer",
+    "cognoms": "Piñol Jorquera",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Compres", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dimarts"] },
+      { "número": 2, "dies": ["dilluns", "dimarts"] },
+      { "número": 3, "dies": ["dilluns", "dimarts"] },
+      { "número": 4, "dies": ["dilluns", "dimarts"] },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Joan Josep",
+    "cognoms": "Juanola Albí",
+    "adreça": { "carrer": "Vi", "numero": 9, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimarts", "dimecres"] },
+      { "número": 3, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
+      { "número": 4, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": [], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Bernat",
+    "cognoms": "Masmitjà Pont",
+    "adreça": { "carrer": "Mullat", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous"], "justificacio": "Assumptes pròpis" },
+      { "número": 2, "dies": ["dimarts", "dijous"] },
+      { "número": 3, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["dijous"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Bernarda",
+    "cognoms": "Solé Just",
+    "adreça": { "carrer": "Fang", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Informàtica", "sou": 2200 },
+    "setmanes": [
+      {
+        "número": 1,
+        "dies": ["dilluns"],
+        "justificacio": "Assumptes pròpis"
+      },
+      { "número": 2, "dies": ["dijous", "dilluns"] },
+      { "número": 3, "dies": ["dijous", "dilluns"] },
+      { "número": 4, "dies": ["dijous", "dilluns"] },
+      { "número": 5, "dies": ["dijous", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "David",
+    "cognoms": "Munné Montià",
+    "adreça": { "carrer": "Moll", "numero": 9, "poblacio": "Vilamongat" },
     "departament": { "nom": "Informàtica", "sou": 2100 },
     "setmanes": [
       { "número": 1, "dies": ["dimecres", "dijous"] },
       { "número": 2, "dies": ["dimecres", "dijous"] },
       { "número": 3, "dies": ["dimecres", "dijous"] },
       { "número": 4, "dies": ["dimecres", "dijous"] },
-      { "número": 5, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" }
+      { "número": 5, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
     ]
   },
   {
-    "nom": "Òscar",
-    "cognoms": "Paret Marsany",
-    "adreça": { "carrer": "Major", "numero": 1, "poblacio": "Vilafredat" },
+    "nom": "Baldiri",
+    "cognoms": "Magrinyà Soler",
+    "adreça": { "carrer": "Bassa", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimecres"] },
+      { "número": 2, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 3, "dies": ["dijous", "dimecres"] },
+      { "número": 4, "dies": ["dijous", "dimecres"] },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Mercè",
+    "cognoms": "Ricart Mata",
+    "adreça": { "carrer": "Bassa", "numero": 9, "poblacio": "Vilamongat" },
     "departament": { "nom": "Vendes", "sou": 2000 },
     "setmanes": [
-      { "número": 1, "dies": ["dimecres", "divendres"] },
-      { "número": 2, "dies": ["dimecres", "divendres"] },
-      { "número": 3, "dies": ["dimecres", "divendres"] },
-      { "número": 4, "dies": ["dimecres", "divendres"] },
-      { "número": 5, "dies": ["dimecres", "divendres"] }
+      { "número": 1, "dies": ["divendres", "dilluns"] },
+      { "número": 2, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dilluns"], "justificacio": "Malaltia" }
     ]
   },
   {
-    "nom": "Maria Àngels",
-    "cognoms": "Rubio Medina",
-    "adreça": { "carrer": "de l'Església", "numero": 8, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
+    "nom": "Mireia",
+    "cognoms": "Medina Vives",
+    "adreça": { "carrer": "Canal", "numero": 10, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
     "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimecres"] },
-      { "número": 2, "dies": ["dilluns", "dimecres"] },
-      { "número": 3, "dies": ["dilluns", "dimecres"] },
-      { "número": 4, "dies": ["dilluns", "dimecres"] },
-      { "número": 5, "dies": ["dilluns", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Joanot",
-    "cognoms": "Marata Jornet",
-    "adreça": { "carrer": "Fangós", "numero": 8, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2000 },
-    "setmanes": [
-      {
-        "número": 1,
-        "dies": ["divendres"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 2, "dies": ["dilluns", "divendres"] },
-      { "número": 3, "dies": ["dilluns", "divendres"] },
+      { "número": 1, "dies": ["divendres"], "justificacio": "Malaltia" },
+      { "número": 2, "dies": [], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
       { "número": 4, "dies": ["dilluns", "divendres"] },
       { "número": 5, "dies": ["dilluns", "divendres"] }
     ]
   },
   {
-    "nom": "Joan",
-    "cognoms": "Molas Agulla",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 6,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Informàtica", "sou": 2400 },
+    "nom": "Jou",
+    "cognoms": "Piñol Llanet",
+    "adreça": { "carrer": "Vi", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Compres", "sou": 2200 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts", "dimecres"] },
-      { "número": 2, "dies": ["dimarts", "dimecres"] },
-      { "número": 3, "dies": ["dimarts", "dimecres"] },
-      { "número": 4, "dies": ["dimarts", "dimecres"] },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" }
+      { "número": 1, "dies": ["dilluns", "dijous"] },
+      { "número": 2, "dies": ["dilluns", "dijous"] },
+      { "número": 3, "dies": ["dilluns", "dijous"] },
+      { "número": 4, "dies": ["dilluns", "dijous"] },
+      { "número": 5, "dies": ["dilluns"], "justificacio": "Malaltia" }
     ]
   },
   {
-    "nom": "Mercè",
-    "cognoms": "Llauradó Orobitg",
-    "adreça": { "carrer": "Vi", "numero": 9, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
+    "nom": "Pol",
+    "cognoms": "Marti Albiol",
+    "adreça": { "carrer": "Oli", "numero": 3, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Compres", "sou": 2100 },
     "setmanes": [
-      { "número": 1, "dies": ["dijous", "dimecres"] },
-      { "número": 2, "dies": ["dijous", "dimecres"] },
-      { "número": 3, "dies": ["dijous", "dimecres"] },
-      { "número": 4, "dies": ["dijous", "dimecres"] },
-      { "número": 5, "dies": ["dijous"], "justificacio": "Assumptes pròpis" }
+      { "número": 1, "dies": ["dimarts", "dijous"] },
+      { "número": 2, "dies": ["dimarts", "dijous"] },
+      { "número": 3, "dies": ["dimarts", "dijous"] },
+      { "número": 4, "dies": ["dimarts", "dijous"] },
+      { "número": 5, "dies": ["dimarts", "dijous"] }
     ]
   },
   {
-    "nom": "Miquel",
-    "cognoms": "Bonastre Guevara",
-    "adreça": { "carrer": "Fang", "numero": 5, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
+    "nom": "Pere",
+    "cognoms": "Mans Pia",
+    "adreça": { "carrer": "Tres cantons", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Compres", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 2, "dies": [], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": ["dilluns", "dimarts"] },
+      { "número": 5, "dies": ["dilluns", "dimarts"] }
+    ]
+  },
+  {
+    "nom": "Filomenu",
+    "cognoms": "Marlés Solé",
+    "adreça": { "carrer": "Fang", "numero": 10, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Marketing", "sou": 2000 },
     "setmanes": [
       { "número": 1, "dies": ["dilluns", "dimarts"] },
       { "número": 2, "dies": ["dilluns", "dimarts"] },
@@ -1014,162 +605,96 @@
     ]
   },
   {
-    "nom": "Paco",
-    "cognoms": "Jaques Paladell",
-    "adreça": { "carrer": "Tres cantons", "numero": 3, "poblacio": "Bonyeta" },
+    "nom": "Antonia",
+    "cognoms": "Vilamoll Pijoan",
+    "adreça": { "carrer": "Fang", "numero": 10, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Recursos Humans", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimarts", "dimecres"] },
+      { "número": 3, "dies": ["dimarts", "dimecres"] },
+      { "número": 4, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
+      { "número": 5, "dies": ["dimarts", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Queralt",
+    "cognoms": "Gasull Viu",
+    "adreça": { "carrer": "Fang", "numero": 7, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Informàtica", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dilluns", "dimarts"] },
+      { "número": 4, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": [], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Maria Rosa",
+    "cognoms": "Guilella Pelayo",
+    "adreça": { "carrer": "Unic", "numero": 1, "poblacio": "Torreta" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimecres"] },
+      { "número": 2, "dies": ["dijous", "dimecres"] },
+      { "número": 3, "dies": ["dijous", "dimecres"] },
+      { "número": 4, "dies": ["dijous", "dimecres"] },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Francesc",
+    "cognoms": "Monné Agulla",
+    "adreça": { "carrer": "Sec", "numero": 9, "poblacio": "Vilamongat" },
     "departament": { "nom": "Compres", "sou": 2000 },
     "setmanes": [
-      { "número": 1, "dies": ["divendres", "dijous"] },
-      { "número": 2, "dies": ["dijous"], "justificacio": "Permís de direcció" },
-      { "número": 3, "dies": ["divendres", "dijous"] },
-      { "número": 4, "dies": ["divendres", "dijous"] },
-      { "número": 5, "dies": ["dijous"], "justificacio": "Infecció CoVID" }
+      { "número": 1, "dies": ["dilluns", "dimecres"] },
+      { "número": 2, "dies": ["dilluns", "dimecres"] },
+      { "número": 3, "dies": ["dilluns", "dimecres"] },
+      { "número": 4, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
+      { "número": 5, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" }
     ]
   },
   {
-    "nom": "Joanot",
-    "cognoms": "Palop Reig",
-    "adreça": { "carrer": "Major", "numero": 8, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2300 },
+    "nom": "Mohamed",
+    "cognoms": "Oliva Montroig",
+    "adreça": { "carrer": "Sec", "numero": 10, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Marketing", "sou": 2300 },
     "setmanes": [
-      { "número": 1, "dies": ["dijous", "divendres"] },
-      { "número": 2, "dies": ["dijous", "divendres"] },
-      { "número": 3, "dies": ["dijous", "divendres"] },
-      { "número": 4, "dies": ["dijous", "divendres"] },
-      { "número": 5, "dies": ["dijous", "divendres"] }
+      { "número": 1, "dies": ["dimecres", "divendres"] },
+      {
+        "número": 2,
+        "dies": ["dimecres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 3, "dies": ["dimecres", "divendres"] },
+      { "número": 4, "dies": ["dimecres", "divendres"] },
+      { "número": 5, "dies": ["dimecres", "divendres"] }
     ]
   },
   {
-    "nom": "Jou",
-    "cognoms": "Moragues Piñol",
-    "adreça": { "carrer": "Fang", "numero": 7, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
+    "nom": "Joana",
+    "cognoms": "Ibarra Manent",
+    "adreça": { "carrer": "Canal", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Compres", "sou": 2400 },
     "setmanes": [
       { "número": 1, "dies": ["dimecres", "dilluns"] },
-      { "número": 2, "dies": ["dimecres", "dilluns"] },
+      {
+        "número": 2,
+        "dies": ["dimecres"],
+        "justificacio": "Permís de direcció"
+      },
       { "número": 3, "dies": ["dimecres", "dilluns"] },
       { "número": 4, "dies": ["dimecres", "dilluns"] },
       { "número": 5, "dies": ["dimecres", "dilluns"] }
     ]
   },
   {
-    "nom": "Josep Antoni",
-    "cognoms": "Huguet Parra",
-    "adreça": { "carrer": "Bassa", "numero": 3, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dijous"] },
-      { "número": 2, "dies": ["dimecres", "dijous"] },
-      { "número": 3, "dies": ["dimecres", "dijous"] },
-      { "número": 4, "dies": ["dimecres", "dijous"] },
-      { "número": 5, "dies": ["dijous"], "justificacio": "Permís de direcció" }
-    ]
-  },
-  {
-    "nom": "Mireia",
-    "cognoms": "Hernández Majós",
-    "adreça": { "carrer": "Tres cantons", "numero": 6, "poblacio": "Bonyeta" },
+    "nom": "Frederic",
+    "cognoms": "Oveja Not",
+    "adreça": { "carrer": "Tres cantons", "numero": 7, "poblacio": "Bonyeta" },
     "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dimarts"] },
-      { "número": 2, "dies": ["dimecres", "dimarts"] },
-      { "número": 3, "dies": ["dimecres", "dimarts"] },
-      {
-        "número": 4,
-        "dies": ["dimarts"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 5, "dies": ["dimecres", "dimarts"] }
-    ]
-  },
-  {
-    "nom": "Xavier",
-    "cognoms": "Medina Ubach",
-    "adreça": { "carrer": "Nevat", "numero": 9, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimarts"] },
-      { "número": 2, "dies": ["dilluns", "dimarts"] },
-      { "número": 3, "dies": ["dilluns", "dimarts"] },
-      { "número": 4, "dies": ["dilluns"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Angela",
-    "cognoms": "Marlés Mans",
-    "adreça": { "carrer": "Oli", "numero": 5, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dilluns"] },
-      { "número": 2, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
-      { "número": 4, "dies": ["dimecres", "dilluns"] },
-      { "número": 5, "dies": ["dilluns"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Jou",
-    "cognoms": "Llorente Pesarrodona",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 2,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Compres", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dilluns"] },
-      { "número": 2, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
-      { "número": 4, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
-      { "número": 5, "dies": ["dimecres", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Diego",
-    "cognoms": "Marsany Pascal",
-    "adreça": { "carrer": "Major", "numero": 1, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Informàtica", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dijous"] },
-      { "número": 2, "dies": ["divendres"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["divendres", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Pepa",
-    "cognoms": "Llesera Jara",
-    "adreça": { "carrer": "Bassa", "numero": 6, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Marketing", "sou": 2000 },
-    "setmanes": [
-      {
-        "número": 1,
-        "dies": ["dilluns"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 2, "dies": ["dimarts"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" }
-    ]
-  },
-  {
-    "nom": "Anas",
-    "cognoms": "Agulla Junyent",
-    "adreça": { "carrer": "Major", "numero": 10, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2300 },
-    "setmanes": [
-      {
-        "número": 1,
-        "dies": ["dilluns"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 2, "dies": ["divendres", "dilluns"] },
-      { "número": 3, "dies": ["divendres", "dilluns"] },
-      { "número": 4, "dies": ["divendres", "dilluns"] },
-      { "número": 5, "dies": ["dilluns"], "justificacio": "Permís de direcció" }
-    ]
-  },
-  {
-    "nom": "Sara",
-    "cognoms": "Pijoan Pont",
-    "adreça": { "carrer": "Major", "numero": 5, "poblacio": "Vilafredat" },
-    "departament": { "nom": "Vendes", "sou": 2400 },
     "setmanes": [
       { "número": 1, "dies": ["divendres", "dijous"] },
       { "número": 2, "dies": ["divendres", "dijous"] },
@@ -1179,87 +704,261 @@
     ]
   },
   {
-    "nom": "Mary",
-    "cognoms": "Messegué Guasch",
-    "adreça": { "carrer": "Vi", "numero": 4, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Marketing", "sou": 2400 },
+    "nom": "Sara",
+    "cognoms": "Masolivé Montió",
+    "adreça": { "carrer": "Sec", "numero": 10, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Informàtica", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["dimecres"], "justificacio": "Malaltia" },
-      { "número": 4, "dies": ["dimecres", "dilluns"] },
-      { "número": 5, "dies": ["dimecres", "dilluns"] }
+      { "número": 1, "dies": ["dilluns", "dimarts"] },
+      { "número": 2, "dies": ["dilluns", "dimarts"] },
+      { "número": 3, "dies": ["dilluns", "dimarts"] },
+      { "número": 4, "dies": ["dilluns", "dimarts"] },
+      {
+        "número": 5,
+        "dies": ["dimarts"],
+        "justificacio": "Permís de direcció"
+      }
+    ]
+  },
+  {
+    "nom": "Anna",
+    "cognoms": "Guardiola Rey",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimarts"] },
+      { "número": 2, "dies": ["dijous", "dimarts"] },
+      { "número": 3, "dies": ["dijous", "dimarts"] },
+      {
+        "número": 4,
+        "dies": ["dimarts"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 5, "dies": ["dijous", "dimarts"] }
+    ]
+  },
+  {
+    "nom": "Candela",
+    "cognoms": "Orobitg Tió",
+    "adreça": { "carrer": "Sec", "numero": 6, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres", "dijous"] },
+      { "número": 2, "dies": ["divendres", "dijous"] },
+      { "número": 3, "dies": ["divendres", "dijous"] },
+      {
+        "número": 4,
+        "dies": ["divendres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 5, "dies": ["divendres", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Bernarda",
+    "cognoms": "Masllorens Alemany",
+    "adreça": { "carrer": "Vi", "numero": 6, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Compres", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dijous"] },
+      { "número": 2, "dies": ["dilluns", "dijous"] },
+      { "número": 3, "dies": ["dilluns", "dijous"] },
+      { "número": 4, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
     ]
   },
   {
     "nom": "Quim",
-    "cognoms": "Solé Montroig",
-    "adreça": {
-      "carrer": "de l'Ajuntament",
-      "numero": 8,
-      "poblacio": "Vilafredat"
-    },
-    "departament": { "nom": "Compres", "sou": 2000 },
+    "cognoms": "Monné March",
+    "adreça": { "carrer": "Nevat", "numero": 7, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Marketing", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dimecres"] },
-      { "número": 2, "dies": ["dilluns", "dimecres"] },
-      { "número": 3, "dies": ["dilluns", "dimecres"] },
-      { "número": 4, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
-      { "número": 5, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" }
+      { "número": 1, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dijous", "dimecres"] },
+      { "número": 4, "dies": ["dijous", "dimecres"] },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
     ]
   },
   {
-    "nom": "Montserrat",
-    "cognoms": "Llesera Moron",
-    "adreça": { "carrer": "Unic", "numero": 1, "poblacio": "Torreta" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
+    "nom": "Josep",
+    "cognoms": "Maruny Marsany",
+    "adreça": { "carrer": "Fangós", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["divendres", "dimecres"] },
-      { "número": 2, "dies": ["divendres", "dimecres"] },
-      { "número": 3, "dies": ["divendres", "dimecres"] },
-      { "número": 4, "dies": ["divendres", "dimecres"] },
-      { "número": 5, "dies": ["divendres", "dimecres"] }
-    ]
-  },
-  {
-    "nom": "Jesus",
-    "cognoms": "Llach Pallejà",
-    "adreça": { "carrer": "Fangós", "numero": 1, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Compres", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["divendres", "dimecres"] },
-      { "número": 2, "dies": ["divendres", "dimecres"] },
-      { "número": 3, "dies": ["divendres", "dimecres"] },
-      { "número": 4, "dies": ["divendres", "dimecres"] },
-      { "número": 5, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" }
-    ]
-  },
-  {
-    "nom": "Ot",
-    "cognoms": "Masvidal Jiménez",
-    "adreça": { "carrer": "Canal", "numero": 3, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Vendes", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
-      { "número": 2, "dies": ["dilluns", "divendres"] },
+      { "número": 1, "dies": ["divendres", "dilluns"] },
+      { "número": 2, "dies": ["divendres", "dilluns"] },
+      { "número": 3, "dies": ["divendres", "dilluns"] },
       {
-        "número": 3,
+        "número": 4,
         "dies": ["divendres"],
         "justificacio": "Permís de direcció"
       },
+      { "número": 5, "dies": ["divendres", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Mireia",
+    "cognoms": "Páramo Llauradó",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 6, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Compres", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dimecres"] },
+      { "número": 2, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": ["dilluns", "dimecres"] },
+      { "número": 5, "dies": ["dilluns", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Pere",
+    "cognoms": "Martell Perez",
+    "adreça": { "carrer": "Major", "numero": 5, "poblacio": "Vilafredat" },
+    "departament": { "nom": "Informàtica", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dilluns"] },
+      { "número": 2, "dies": ["dimarts", "dilluns"] },
+      { "número": 3, "dies": ["dimarts", "dilluns"] },
+      { "número": 4, "dies": ["dimarts", "dilluns"] },
+      { "número": 5, "dies": ["dimarts", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Cristian",
+    "cognoms": "Molas Matute",
+    "adreça": { "carrer": "Fang", "numero": 10, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Marketing", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "divendres"] },
+      { "número": 2, "dies": ["dilluns", "divendres"] },
+      { "número": 3, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
       { "número": 4, "dies": ["dilluns", "divendres"] },
       { "número": 5, "dies": ["dilluns", "divendres"] }
     ]
   },
   {
-    "nom": "Joan",
-    "cognoms": "Padilla Alcoberro",
+    "nom": "Sara",
+    "cognoms": "Juvany Ubach",
+    "adreça": { "carrer": "Moll", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Recursos Humans", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dijous"] },
+      { "número": 2, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dimarts", "dijous"] },
+      { "número": 4, "dies": ["dimarts", "dijous"] },
+      { "número": 5, "dies": ["dimarts", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Maria Lluisa",
+    "cognoms": "Marcos Paraire",
     "adreça": {
       "carrer": "de l'Ajuntament",
-      "numero": 3,
+      "numero": 1,
       "poblacio": "Vilafredat"
     },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": ["dimarts", "dimecres"] },
+      { "número": 5, "dies": ["dimarts", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Maria",
+    "cognoms": "Páramo Marqués",
+    "adreça": { "carrer": "de la Font", "numero": 4, "poblacio": "Bonyeta" },
     "departament": { "nom": "Vendes", "sou": 2300 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Assumptes pròpis" },
+      { "número": 1, "dies": ["divendres", "dijous"] },
+      { "número": 2, "dies": ["divendres", "dijous"] },
+      { "número": 3, "dies": ["divendres", "dijous"] },
+      { "número": 4, "dies": ["divendres", "dijous"] },
+      { "número": 5, "dies": ["divendres", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Pol",
+    "cognoms": "Pascal Brau",
+    "adreça": { "carrer": "Bassa", "numero": 10, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "divendres"] },
+      {
+        "número": 2,
+        "dies": ["divendres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 3, "dies": ["dimarts", "divendres"] },
+      { "número": 4, "dies": ["dimarts", "divendres"] },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Joaquim",
+    "cognoms": "Masmitjà Vilamoll",
+    "adreça": { "carrer": "Sec", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Recursos Humans", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dimarts", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Magda",
+    "cognoms": "Parer Pairó",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Marketing", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 2, "dies": ["dijous", "dilluns"] },
+      { "número": 3, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 4, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 5, "dies": ["dijous", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Magda",
+    "cognoms": "Pellicer Julià",
+    "adreça": { "carrer": "Unic", "numero": 6, "poblacio": "Torreta" },
+    "departament": { "nom": "Marketing", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimecres"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dijous", "dimecres"] },
+      { "número": 4, "dies": ["dijous", "dimecres"] },
+      { "número": 5, "dies": ["dijous", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Bernarda",
+    "cognoms": "Marlés Marín",
+    "adreça": { "carrer": "Oli", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Recursos Humans", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dilluns"] },
+      { "número": 2, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dimarts", "dilluns"] },
+      {
+        "número": 4,
+        "dies": ["dilluns"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 5, "dies": ["dimarts", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Zeus",
+    "cognoms": "Lloris Munné",
+    "adreça": { "carrer": "Tres cantons", "numero": 10, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres", "dimarts"] },
       { "número": 2, "dies": ["divendres", "dimarts"] },
       { "número": 3, "dies": ["divendres", "dimarts"] },
       { "número": 4, "dies": ["divendres", "dimarts"] },
@@ -1267,98 +966,107 @@
     ]
   },
   {
-    "nom": "Jou",
-    "cognoms": "Masclans Pey",
-    "adreça": { "carrer": "Dos de maig", "numero": 4, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Marketing", "sou": 2000 },
-    "setmanes": [
-      { "número": 1, "dies": ["dilluns", "dijous"] },
-      { "número": 2, "dies": ["dilluns", "dijous"] },
-      { "número": 3, "dies": ["dijous"], "justificacio": "Permís de direcció" },
-      { "número": 4, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
-      { "número": 5, "dies": ["dilluns", "dijous"] }
-    ]
-  },
-  {
-    "nom": "Didac",
-    "cognoms": "Iranzo Pou",
-    "adreça": { "carrer": "Tres cantons", "numero": 3, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Compres", "sou": 2100 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dilluns"] },
-      { "número": 2, "dies": ["dimecres"], "justificacio": "Malaltia" },
-      { "número": 5, "dies": ["dimecres", "dilluns"] }
-    ]
-  },
-  {
-    "nom": "Queralt",
-    "cognoms": "Juncosa Visent",
-    "adreça": { "carrer": "Fang", "numero": 2, "poblacio": "Sant Ficus" },
-    "departament": { "nom": "Recursos Humans", "sou": 2400 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 3, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
-      { "número": 5, "dies": ["dimarts"], "justificacio": "Malaltia" }
-    ]
-  },
-  {
-    "nom": "Alfred",
-    "cognoms": "Jorquera Llorente",
-    "adreça": { "carrer": "Sec", "numero": 3, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Recursos Humans", "sou": 2200 },
-    "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dimarts"] },
-      { "número": 2, "dies": ["dimecres", "dimarts"] },
-      { "número": 3, "dies": ["dimecres", "dimarts"] },
-      { "número": 4, "dies": ["dimecres", "dimarts"] },
-      { "número": 5, "dies": ["dimecres", "dimarts"] }
-    ]
-  },
-  {
-    "nom": "Quim",
-    "cognoms": "Marti Messegué",
-    "adreça": { "carrer": "Tres cantons", "numero": 7, "poblacio": "Bonyeta" },
+    "nom": "Rosa",
+    "cognoms": "Montió Padrosa",
+    "adreça": { "carrer": "Fang", "numero": 1, "poblacio": "Sant Ficus" },
     "departament": { "nom": "Marketing", "sou": 2300 },
     "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dilluns"] },
-      {
-        "número": 2,
-        "dies": ["dilluns"],
-        "justificacio": "Permís de direcció"
-      },
-      {
-        "número": 3,
-        "dies": ["dimecres"],
-        "justificacio": "Permís de direcció"
-      },
-      {
-        "número": 4,
-        "dies": ["dilluns"],
-        "justificacio": "Permís de direcció"
-      },
-      { "número": 5, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" }
+      { "número": 1, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["dimecres", "dijous"] }
     ]
   },
   {
     "nom": "Rufo",
-    "cognoms": "Pont Miravet",
-    "adreça": { "carrer": "Fangós", "numero": 2, "poblacio": "Vilamongat" },
-    "departament": { "nom": "Vendes", "sou": 2000 },
+    "cognoms": "Marata Ruiz",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 1, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["dimecres", "dimarts"] },
-      { "número": 2, "dies": ["dimecres", "dimarts"] },
-      { "número": 3, "dies": ["dimecres", "dimarts"] },
-      { "número": 4, "dies": ["dimecres", "dimarts"] },
-      { "número": 5, "dies": ["dimecres", "dimarts"] }
+      { "número": 1, "dies": ["dilluns", "dimarts"] },
+      { "número": 2, "dies": ["dilluns", "dimarts"] },
+      { "número": 3, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Permís de direcció" }
     ]
   },
   {
-    "nom": "Susanna",
-    "cognoms": "Hom Pey",
-    "adreça": { "carrer": "Dos de maig", "numero": 4, "poblacio": "Bonyeta" },
+    "nom": "Manel",
+    "cognoms": "Moragues Tubau",
+    "adreça": {
+      "carrer": "Sant Bonastre",
+      "numero": 10,
+      "poblacio": "Bonyeta"
+    },
     "departament": { "nom": "Compres", "sou": 2400 },
     "setmanes": [
-      { "número": 1, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 1, "dies": ["dijous", "divendres"] },
+      { "número": 2, "dies": ["dijous", "divendres"] },
+      { "número": 3, "dies": ["dijous", "divendres"] },
+      { "número": 4, "dies": ["dijous"], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Filomenu",
+    "cognoms": "Gual Palau",
+    "adreça": { "carrer": "Tres cantons", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimarts", "dimecres"] },
+      { "número": 3, "dies": ["dimarts", "dimecres"] },
+      { "número": 4, "dies": ["dimarts", "dimecres"] },
+      { "número": 5, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Marti",
+    "cognoms": "Alemany Tió",
+    "adreça": { "carrer": "Oli", "numero": 4, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Marketing", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dijous"] },
+      { "número": 2, "dies": ["dimarts", "dijous"] },
+      { "número": 3, "dies": ["dijous"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["dimarts", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Queralt",
+    "cognoms": "Matarodona Julià",
+    "adreça": { "carrer": "Moll", "numero": 6, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Informàtica", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dimecres"] },
+      { "número": 2, "dies": ["dimarts", "dimecres"] },
+      { "número": 3, "dies": ["dimarts", "dimecres"] },
+      { "número": 4, "dies": ["dimarts", "dimecres"] },
+      { "número": 5, "dies": ["dimarts", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Angela",
+    "cognoms": "Ingla Jiménez",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Compres", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "divendres"] },
+      { "número": 2, "dies": ["dilluns", "divendres"] },
+      { "número": 3, "dies": ["dilluns", "divendres"] },
+      { "número": 4, "dies": ["dilluns", "divendres"] },
+      { "número": 5, "dies": ["dilluns", "divendres"] }
+    ]
+  },
+  {
+    "nom": "Queralt",
+    "cognoms": "Huguet Platja",
+    "adreça": { "carrer": "Fang", "numero": 1, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Informàtica", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimecres"] },
       { "número": 2, "dies": ["dijous", "dimecres"] },
       { "número": 3, "dies": ["dijous", "dimecres"] },
       { "número": 4, "dies": ["dijous", "dimecres"] },
@@ -1366,27 +1074,357 @@
     ]
   },
   {
+    "nom": "Magda",
+    "cognoms": "Llauradó Jordana",
+    "adreça": { "carrer": "Moll", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "divendres"] },
+      { "número": 2, "dies": ["dimecres", "divendres"] },
+      { "número": 3, "dies": ["dimecres", "divendres"] },
+      { "número": 4, "dies": ["dimecres", "divendres"] },
+      { "número": 5, "dies": ["dimecres", "divendres"] }
+    ]
+  },
+  {
+    "nom": "Sergi",
+    "cognoms": "Macià Linares",
+    "adreça": { "carrer": "Oli", "numero": 6, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Marketing", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dimecres", "dimarts"] },
+      { "número": 4, "dies": ["dimecres", "dimarts"] },
+      { "número": 5, "dies": ["dimecres", "dimarts"] }
+    ]
+  },
+  {
     "nom": "Didac",
-    "cognoms": "Leal Munné",
-    "adreça": { "carrer": "de la Font", "numero": 6, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Compres", "sou": 2300 },
+    "cognoms": "Marlés Jodar",
+    "adreça": { "carrer": "Canal", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Marketing", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "divendres"] },
+      { "número": 2, "dies": ["dilluns", "divendres"] },
+      { "número": 3, "dies": ["dilluns", "divendres"] },
+      { "número": 4, "dies": ["dilluns", "divendres"] },
+      { "número": 5, "dies": ["dilluns"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Joan",
+    "cognoms": "March Mascarell",
+    "adreça": { "carrer": "de l'Església", "numero": 3, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Informàtica", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dijous"] },
+      { "número": 2, "dies": ["dilluns", "dijous"] },
+      { "número": 3, "dies": ["dilluns", "dijous"] },
+      { "número": 4, "dies": ["dilluns", "dijous"] },
+      { "número": 5, "dies": ["dilluns", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Sònia",
+    "cognoms": "Petrus Pelegrí",
+    "adreça": { "carrer": "Nou", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Recursos Humans", "sou": 2000 },
+    "setmanes": [
+      {
+        "número": 1,
+        "dies": ["divendres"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 2, "dies": ["divendres", "dimecres"] },
+      { "número": 3, "dies": ["divendres", "dimecres"] },
+      { "número": 4, "dies": ["divendres", "dimecres"] },
+      { "número": 5, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Sara",
+    "cognoms": "Petrus Lloris",
+    "adreça": { "carrer": "Fang", "numero": 6, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dimarts"] },
+      { "número": 2, "dies": ["dilluns", "dimarts"] },
+      { "número": 3, "dies": ["dilluns", "dimarts"] },
+      { "número": 4, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": [], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Josep",
+    "cognoms": "Rubio Pairó",
+    "adreça": { "carrer": "Mullat", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
     "setmanes": [
       { "número": 1, "dies": ["dijous", "dilluns"] },
-      { "número": 2, "dies": ["dijous", "dilluns"] },
-      { "número": 3, "dies": ["dijous", "dilluns"] },
+      { "número": 2, "dies": ["dijous"], "justificacio": "Assumptes pròpis" },
+      { "número": 3, "dies": ["dilluns"], "justificacio": "Assumptes pròpis" },
       { "número": 4, "dies": ["dijous", "dilluns"] },
       { "número": 5, "dies": ["dijous", "dilluns"] }
     ]
   },
   {
-    "nom": "Alfons",
-    "cognoms": "Huguet Mínguez",
-    "adreça": { "carrer": "Nou", "numero": 9, "poblacio": "Bonyeta" },
-    "departament": { "nom": "Recursos Humans", "sou": 2400 },
+    "nom": "Jean",
+    "cognoms": "Moragues Bonastre",
+    "adreça": { "carrer": "Moll", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2000 },
     "setmanes": [
-      { "número": 1, "dies": ["dimarts", "dimecres"] },
-      { "número": 2, "dies": ["dimarts", "dimecres"] },
-      { "número": 3, "dies": ["dimecres"], "justificacio": "Malaltia" }
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dilluns", "divendres"] },
+      { "número": 4, "dies": ["dilluns", "divendres"] },
+      { "número": 5, "dies": ["divendres"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Ot",
+    "cognoms": "Lara Masmitjà",
+    "adreça": { "carrer": "Nevat", "numero": 8, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dimecres"], "justificacio": "Assumptes pròpis" },
+      { "número": 4, "dies": ["divendres", "dimecres"] },
+      { "número": 5, "dies": ["divendres", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Bernarda",
+    "cognoms": "Navajas Pedrol",
+    "adreça": { "carrer": "de la Font", "numero": 9, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "dijous"] },
+      { "número": 2, "dies": ["dimecres", "dijous"] },
+      { "número": 3, "dies": ["dimecres", "dijous"] },
+      { "número": 4, "dies": ["dijous"], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "David",
+    "cognoms": "Monells Llort",
+    "adreça": { "carrer": "Nou", "numero": 4, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dijous"] },
+      { "número": 2, "dies": ["dilluns", "dijous"] },
+      { "número": 3, "dies": ["dilluns", "dijous"] },
+      { "número": 4, "dies": ["dilluns", "dijous"] },
+      { "número": 5, "dies": ["dilluns", "dijous"] }
+    ]
+  },
+  {
+    "nom": "Paco",
+    "cognoms": "Monné Platja",
+    "adreça": { "carrer": "Bassa", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dimarts"] },
+      { "número": 2, "dies": ["dijous"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dijous", "dimarts"] }
+    ]
+  },
+  {
+    "nom": "Helena",
+    "cognoms": "Guvern Mascarell",
+    "adreça": { "carrer": "Bassa", "numero": 2, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "dijous"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dimecres"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Fe",
+    "cognoms": "Pi Tió",
+    "adreça": { "carrer": "Tres cantons", "numero": 10, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Recursos Humans", "sou": 2300 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "divendres"] },
+      { "número": 2, "dies": ["dijous", "divendres"] },
+      { "número": 3, "dies": ["dijous"], "justificacio": "Permís de direcció" },
+      { "número": 4, "dies": ["dijous", "divendres"] },
+      { "número": 5, "dies": ["dijous"], "justificacio": "Infecció CoVID" }
+    ]
+  },
+  {
+    "nom": "Víctor",
+    "cognoms": "Monells Julià",
+    "adreça": { "carrer": "Unic", "numero": 3, "poblacio": "Torreta" },
+    "departament": { "nom": "Vendes", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres", "dimarts"] },
+      { "número": 2, "dies": ["divendres", "dimarts"] },
+      { "número": 3, "dies": ["divendres", "dimarts"] },
+      { "número": 4, "dies": ["divendres", "dimarts"] },
+      {
+        "número": 5,
+        "dies": ["divendres"],
+        "justificacio": "Permís de direcció"
+      }
+    ]
+  },
+  {
+    "nom": "Ot",
+    "cognoms": "Macrané Codina",
+    "adreça": { "carrer": "Bassa", "numero": 9, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Compres", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "divendres"] },
+      { "número": 2, "dies": ["dimecres", "divendres"] },
+      { "número": 3, "dies": ["dimecres", "divendres"] },
+      { "número": 4, "dies": ["dimecres", "divendres"] },
+      { "número": 5, "dies": ["dimecres", "divendres"] }
+    ]
+  },
+  {
+    "nom": "Lluis",
+    "cognoms": "Alba Masmitjà",
+    "adreça": { "carrer": "Tres cantons", "numero": 7, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "divendres"] },
+      { "número": 2, "dies": ["dimecres", "divendres"] },
+      { "número": 3, "dies": ["dimecres", "divendres"] },
+      { "número": 4, "dies": ["dimecres", "divendres"] },
+      { "número": 5, "dies": ["dimecres", "divendres"] }
+    ]
+  },
+  {
+    "nom": "Gerard",
+    "cognoms": "Parra Marsà",
+    "adreça": { "carrer": "Mullat", "numero": 5, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Marketing", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres", "dijous"] },
+      { "número": 2, "dies": ["divendres", "dijous"] },
+      { "número": 3, "dies": ["divendres"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["divendres"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Jean",
+    "cognoms": "Pairó Ortiz",
+    "adreça": { "carrer": "Tres cantons", "numero": 1, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dijous", "dilluns"] },
+      { "número": 2, "dies": ["dijous"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dijous", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Alfons",
+    "cognoms": "Picanyol Guixà",
+    "adreça": {
+      "carrer": "de l'Ajuntament",
+      "numero": 6,
+      "poblacio": "Vilafredat"
+    },
+    "departament": { "nom": "Compres", "sou": 2400 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimecres", "divendres"] },
+      { "número": 2, "dies": ["dimecres", "divendres"] },
+      { "número": 3, "dies": ["divendres"], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": [], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Maria Lluisa",
+    "cognoms": "Manent González",
+    "adreça": { "carrer": "Sant Bonastre", "numero": 2, "poblacio": "Bonyeta" },
+    "departament": { "nom": "Recursos Humans", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dimecres"] },
+      { "número": 2, "dies": ["dilluns", "dimecres"] },
+      { "número": 3, "dies": ["dilluns", "dimecres"] },
+      { "número": 4, "dies": ["dilluns", "dimecres"] },
+      { "número": 5, "dies": ["dilluns", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Víctor",
+    "cognoms": "Mayans Maurell",
+    "adreça": { "carrer": "Fang", "numero": 5, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Compres", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["divendres", "dimarts"] },
+      {
+        "número": 2,
+        "dies": ["dimarts"],
+        "justificacio": "Permís de direcció"
+      },
+      { "número": 3, "dies": ["dimarts"], "justificacio": "Infecció CoVID" },
+      { "número": 4, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 5, "dies": ["divendres", "dimarts"] }
+    ]
+  },
+  {
+    "nom": "Felicitat",
+    "cognoms": "Boix Murga",
+    "adreça": { "carrer": "Nevat", "numero": 8, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Infecció CoVID" },
+      { "número": 2, "dies": [], "justificacio": "Infecció CoVID" },
+      { "número": 3, "dies": ["dimecres", "dilluns"] },
+      { "número": 4, "dies": ["dimecres", "dilluns"] },
+      { "número": 5, "dies": ["dimecres", "dilluns"] }
+    ]
+  },
+  {
+    "nom": "Manel",
+    "cognoms": "Pont Linares",
+    "adreça": { "carrer": "Nevat", "numero": 4, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Marketing", "sou": 2000 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns", "dimecres"] },
+      { "número": 2, "dies": ["dimecres"], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": [], "justificacio": "Malaltia" },
+      { "número": 5, "dies": ["dilluns", "dimecres"] }
+    ]
+  },
+  {
+    "nom": "Candela",
+    "cognoms": "Giménez Guvern",
+    "adreça": { "carrer": "Fang", "numero": 2, "poblacio": "Sant Ficus" },
+    "departament": { "nom": "Vendes", "sou": 2100 },
+    "setmanes": [
+      { "número": 1, "dies": ["dimarts", "dijous"] },
+      { "número": 2, "dies": ["dimarts", "dijous"] },
+      { "número": 3, "dies": ["dimarts", "dijous"] },
+      { "número": 4, "dies": ["dimarts", "dijous"] },
+      { "número": 5, "dies": ["dimarts"], "justificacio": "Malaltia" }
+    ]
+  },
+  {
+    "nom": "Anna",
+    "cognoms": "Mascarell Albí",
+    "adreça": { "carrer": "Bassa", "numero": 1, "poblacio": "Vilamongat" },
+    "departament": { "nom": "Vendes", "sou": 2200 },
+    "setmanes": [
+      { "número": 1, "dies": ["dilluns"], "justificacio": "Malaltia" },
+      { "número": 2, "dies": [], "justificacio": "Malaltia" },
+      { "número": 3, "dies": [], "justificacio": "Malaltia" },
+      { "número": 4, "dies": ["dilluns", "divendres"] },
+      { "número": 5, "dies": ["dilluns", "divendres"] }
     ]
   }
 ]
