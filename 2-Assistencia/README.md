@@ -33,7 +33,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 2. Mitjana de sous de cada departament?
+## 3. Mitjana de sous de cada departament?
 
 ```mongo
 db.presencia.aggregate([
@@ -46,7 +46,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 3. Qui són els caps de departament?
+## 4. Qui són els caps de departament?
 
 ```mongo
 db.presencia.aggregate([
@@ -61,6 +61,29 @@ db.presencia.aggregate([
             nom: "$nom",
             cognoms: "$cognoms",
             departament: "$departament.nom"
+        }
+    }
+])
+```
+
+## 5. Quins empleats han tingut "Infecció CoVID" de cada departament?
+
+```mongo
+db.presencia.aggregate([
+    {
+        $match: { "setmanes.justificacio": "Infecció CoVID", "departament.nom": "Informàtica" }
+    },
+    {
+        $project: {
+            _id: 0,
+            nom: { $concat: [ "$nom", " ", "$cognoms" ] },
+            departament: "$departament.nom"
+        }
+    },
+    {
+        $group: {
+            _id: "$departament",
+            noms: { $addToSet:  "$nom" },
         }
     }
 ])
