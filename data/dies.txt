@@ -1,0 +1,5 @@
+dilluns
+dimarts
+dimecres
+dijous
+divendres

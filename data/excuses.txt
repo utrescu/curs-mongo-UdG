@@ -1,0 +1,4 @@
+Infecció CoVID,1
+Assumptes pròpis,0
+Permís de direcció,0
+Malaltia,2
