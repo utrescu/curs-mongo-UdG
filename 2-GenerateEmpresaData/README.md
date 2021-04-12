@@ -10,7 +10,7 @@ db.dades.aggregate([
 ])
 ```
 
-## 2.On viu l'Juan Morón?
+## 2.On viu en "Juan Morón"?
 
 ```mongo
 db.dades.aggregate( [

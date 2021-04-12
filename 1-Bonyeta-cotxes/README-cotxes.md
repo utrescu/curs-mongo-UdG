@@ -4,8 +4,6 @@
 
 ### Importar
 
-``
-
 ### 1.Quines de les persones viuen a Bonyeta?
 
 `db.dades.find({"adreca.poblacio": "Bonyeta"}).pretty()`

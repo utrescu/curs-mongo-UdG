@@ -18,6 +18,8 @@
 
 `db.noms.count( { "comarques.comarca": { $in: ["Alt Empordà" ] }})`
 
+`db.noms.count( { "comarques.comarca": "Alt Empordà" })`
+
 ## 5. Dades dels noms que porten entre 100 i 101 persones?
 
 `db.noms.find({ total: { $gte: 100 , $lt: 101 } })`
@@ -26,7 +28,7 @@
 
 `db.noms.find({nom:"ELNA"}, {total:1})`
 
-## 7.Quins són els noms de dóna que porten més de 9000 persones?
+## 7.Quins són els noms de dóna que porten més de 5000 persones?
 
 `db.noms.find({ sexe:"D", total: { $gt: 5000 }}, { nom: 1 })`
 
@@ -42,8 +44,8 @@
 
 `db.noms.find({nom:/^ALEXANDR[EA]$/}, {_id:0, nom:1}).sort({total: -1}).limit(1)`
 
+`db.noms.find({ $or: [ {nom:"ALEXANDRA"},{nom:"ALEXANDRE"} ] }, {_id:0, nom:1}).sort({total: -1}).limit(1)`
+
 ## 11. Quins noms contenen "JOAN" en el nom?
 
 `db.noms.find({nom:/\s*JOAN\s*/}, {nom:1}).count()`
-
-## 12.a

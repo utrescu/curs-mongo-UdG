@@ -14,7 +14,13 @@ db.presencia.aggregate([
 ])
 ```
 
-## 2. Quins departaments són els 5 treballadors que cobren menys?
+## 2. Quant es gasten en sou cada mes?
+
+```mongo
+db.presencia.aggregate([ { $group: { _id:0, sous: { $sum: "$departament.sou" } } } ])
+```
+
+## 3. Quins departaments són els 5 treballadors que cobren menys?
 
 ```mongo
 db.presencia.aggregate([
@@ -33,7 +39,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 3. Mitjana de sous de cada departament?
+## 4. Mitjana de sous de cada departament?
 
 ```mongo
 db.presencia.aggregate([
@@ -46,7 +52,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 4. Qui són els caps de departament?
+## 5. Qui són els que tenen algun càrrec?
 
 ```mongo
 db.presencia.aggregate([
@@ -66,7 +72,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 5. Quins empleats han tingut "Infecció CoVID" de cada departament?
+## 6. Quins empleats han tingut "Infecció CoVID" de cada departament?
 
 ```mongo
 db.presencia.aggregate([
@@ -89,31 +95,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 5. Quines dues setmanes han estat les que han tingut més baixes?
-
-```mongo
-db.presencia.aggregate([
-    {
-        $unwind: "$setmanes"
-    },
-    {
-        $project: {
-            numero: "$setmanes.número",
-            faltes : { $subtract: [2, { $size: "$setmanes.dies" }] }
-        }
-    },
-    {
-        $group: {
-            _id: "$numero",
-            suma: { $sum: "$faltes" }
-        }
-    },
-    { $sort: { "suma": -1 } },
-    { $limit: 2 }
-])
-```
-
-## 4. Quina assistència tenim cada dia?
+## 7. Quina assistència tenim cada dia de la setmana?
 
 ```mongo
 db.presencia.aggregate([
@@ -134,7 +116,7 @@ db.presencia.aggregate([
     ])
 ```
 
-## 5. Quins dies hi ha algú del departament d'Informàtica?
+## 8. Quins dies hi ha algú del departament d'Informàtica?
 
 ```mongo
 db.presencia.aggregate([
@@ -160,5 +142,29 @@ db.presencia.aggregate([
             dies: { $addToSet: "$dies"}
         }
     }
+])
+```
+
+## 9. Quines dues setmanes han estat les que han tingut més baixes?
+
+```mongo
+db.presencia.aggregate([
+    {
+        $unwind: "$setmanes"
+    },
+    {
+        $project: {
+            numero: "$setmanes.número",
+            faltes : { $subtract: [2, { $size: "$setmanes.dies" }] }
+        }
+    },
+    {
+        $group: {
+            _id: "$numero",
+            suma: { $sum: "$faltes" }
+        }
+    },
+    { $sort: { "suma": -1 } },
+    { $limit: 2 }
 ])
 ```
