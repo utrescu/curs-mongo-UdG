@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const PERSONES = 100
+const PERSONES = 534
 
 type NomPersona struct {
 	Nom  string
@@ -26,6 +26,10 @@ type Assistencia struct {
 	Idiomes     []string
 }
 
+type Zona struct {
+	Nom  string `json:"nom"`
+	Tota bool   `json:"completa"`
+}
 type Persones struct {
 	Nom         string   `json:"nom"`
 	Sexe        string   `json:"sexe,omitempty"`
@@ -33,6 +37,7 @@ type Persones struct {
 	Departament string   `json:"departament"`
 	Idiomes     []string `json:"idiomes"`
 	Delegat     string   `json:"delegatSindical,omitempty"`
+	Zones       []Zona   `json:"zones,omitempty"`
 }
 
 type Adreca struct {
@@ -159,7 +164,28 @@ func generaPoblacio(poblacions map[string]string) (*Adreca, error) {
 		i++
 	}
 
-	return nil, errors.New("Ha sortir la poblacio impossible")
+	return nil, errors.New("ha sortir la poblacio impossible")
+}
+
+func generaZones(zonesPersona []string) []Zona {
+	zones := make([]string, len(zonesPersona))
+
+	copy(zones, zonesPersona)
+	numZones := rand.Intn(3) + 1
+
+	rand.Shuffle(len(zones), func(i, j int) { zones[i], zones[j] = zones[j], zones[i] })
+
+	resultats := make([]Zona, numZones)
+
+	for i, zona := range zones[:numZones] {
+		resultat := Zona{
+			Nom:  zona,
+			Tota: true,
+		}
+		resultats[i] = resultat
+	}
+
+	return resultats
 }
 
 func calculaDelegats() int {
@@ -178,11 +204,12 @@ func calculaDelegats() int {
 }
 
 func main() {
-	nomsPersona := readNoms("noms.txt")
-	cognomsPersona := readStringsFile("cognoms.txt")
-	departamentsPersona := readStringsFile("departaments.txt")
-	idiomesPersona := readStringsFile("idiomes.txt")
-	poblacions := readPoblacions("poblacions.txt")
+	nomsPersona := readNoms("../data/noms.txt")
+	cognomsPersona := readStringsFile("../data/cognoms.txt")
+	departamentsPersona := readStringsFile("../data/departaments.txt")
+	idiomesPersona := readStringsFile("../data/idiomes.txt")
+	poblacions := readPoblacions("../data/poblacions.txt")
+	comarques := readStringsFile("../data/comarques.txt")
 
 	delegatsSindicals := calculaDelegats()
 	delegatsSindicalsAssignats := 0
@@ -193,7 +220,7 @@ func main() {
 
 	for i := 0; i < PERSONES; i++ {
 		nom, sexe := generaNom(nomsPersona)
-		cognom := triaRandom(cognomsPersona)
+		cognom := triaRandom(cognomsPersona) + " " + triaRandom(cognomsPersona)
 		departament := triaRandom(departamentsPersona)
 		idiomes := generaIdiomes(idiomesPersona)
 		poblacio, _ := generaPoblacio(poblacions)
@@ -207,6 +234,11 @@ func main() {
 			}
 		}
 
+		var zona []Zona
+		if departament == "Vendes" {
+			zona = generaZones(comarques)
+		}
+
 		persona := Persones{
 			Nom:         fmt.Sprintf("%s %s", nom, cognom),
 			Sexe:        sexe,
@@ -214,6 +246,7 @@ func main() {
 			Idiomes:     idiomes,
 			Adreça:      poblacio,
 			Delegat:     delegat,
+			Zones:       zona,
 		}
 
 		persones[i] = persona
