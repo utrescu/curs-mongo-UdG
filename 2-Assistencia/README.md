@@ -20,7 +20,7 @@ db.presencia.aggregate([
 db.presencia.aggregate([ { $group: { _id:0, sous: { $sum: "$departament.sou" } } } ])
 ```
 
-## 3. Quins departaments són els 5 treballadors que cobren menys?
+## 3. De quins departaments són els 5 treballadors que cobren menys?
 
 ```mongo
 db.presencia.aggregate([
@@ -39,7 +39,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 4. Mitjana de sous de cada departament?
+## 4. Quina és la mitjana de sous de cada departament?
 
 ```mongo
 db.presencia.aggregate([
@@ -52,7 +52,7 @@ db.presencia.aggregate([
 ])
 ```
 
-## 5. Qui són els que tenen algun càrrec?
+## 5. Qui són els empleats que tenen algun càrrec?
 
 ```mongo
 db.presencia.aggregate([
