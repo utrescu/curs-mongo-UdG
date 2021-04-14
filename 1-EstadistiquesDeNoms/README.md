@@ -28,7 +28,7 @@
 
 `db.noms.find({nom:"ELNA"}, {total:1})`
 
-## 7.Quins són els noms de dóna que porten més de 5000 persones?
+## 7.Quins són els noms de dona que porten més de 5000 persones?
 
 `db.noms.find({ sexe:"D", total: { $gt: 5000 }}, { nom: 1 })`
 

@@ -46,7 +46,7 @@ namespace Perelist
                 }
             }
 
-            var db = client.GetDatabase("bonyetes");
+            var db = client.GetDatabase("cotxes");
             System.Console.WriteLine("-------------- COLECTIONS ---------------- ");
             // Puc agafar els noms directament
             foreach (var col in db.ListCollectionNames().ToEnumerable())
@@ -162,6 +162,21 @@ namespace Perelist
             {
                 System.Console.WriteLine(result.ToString());
             }
+
+            System.Console.WriteLine("--------------- RESULTATS PERES 2 ------------------- ");
+            var peres2 = coleccio.AsQueryable<BsonDocument>()
+            .Where(d => d["cotxes"] == "Seat")
+            .Select(u => u["cotxes"])
+            .Distinct()
+            .ToList();
+
+            foreach (var pere in peres2)
+            {
+                System.Console.WriteLine(pere);
+            }
+
+
+
         }
     }
 }
