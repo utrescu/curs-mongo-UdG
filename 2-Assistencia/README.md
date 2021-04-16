@@ -17,7 +17,14 @@ db.presencia.aggregate([
 ## 2. Quant es gasten en sou cada mes?
 
 ```mongo
-db.presencia.aggregate([ { $group: { _id:0, sous: { $sum: "$departament.sou" } } } ])
+db.presencia.aggregate([
+    {
+        $group:
+        {
+            _id:0, sous: { $sum: "$departament.sou" }
+        }
+    }
+])
 ```
 
 ## 3. De quins departaments són els 5 treballadors que cobren menys?
@@ -77,7 +84,7 @@ db.presencia.aggregate([
 ```mongo
 db.presencia.aggregate([
     {
-        $match: { "setmanes.justificacio": "Infecció CoVID", "departament.nom": "Informàtica" }
+        $match: { "setmanes.justificacio": "Infecció CoVID" }
     },
     {
         $project: {
